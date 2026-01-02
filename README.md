@@ -1,2 +1,2 @@
 # Phoenix-Wolf-Systems
-Astral Prisms 
+Astral Prisms: High-Frequency Logic & Security Solutions.
