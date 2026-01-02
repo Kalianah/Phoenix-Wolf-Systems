@@ -3,116 +3,528 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Astral Prisms — Phoenix Wolf Systems: matured, high-frequency logic for modern infrastructure.">
-    <title>Astral Prisms | Phoenix Wolf Systems</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Phoenix Wolf Systems - Sovereign OS: Industry-leading security and infrastructure solutions. Curated by Keli.">
+    <title>Sovereign OS | Phoenix Wolf Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
             --midnight: #0d0221;
+            --deep-purple: #1a0b2e;
             --lavender: #bf94ff;
             --frost: #87cefa;
             --glass: rgba(255, 255, 255, 0.05);
+            --glass-strong: rgba(255, 255, 255, 0.08);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            background: radial-gradient(circle at center, #1a0b2e 0%, var(--midnight) 100%);
+            background: radial-gradient(circle at top right, #1a0b2e 0%, var(--midnight) 50%, #0a0510 100%);
             color: #f0f0f0;
             font-family: 'Inter', sans-serif;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             min-height: 100vh;
-            overflow: hidden;
         }
 
-        .sanctuary-box {
+        .header {
             background: var(--glass);
             backdrop-filter: blur(15px);
-            border: 1px solid rgba(191, 148, 255, 0.2);
-            padding: 3rem;
-            border-radius: 24px;
-            text-align: center;
-            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5), 0 0 20px rgba(135, 206, 250, 0.1);
-            max-width: 500px;
-            width: 90%;
+            border-bottom: 1px solid rgba(191, 148, 255, 0.2);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
-        h1 {
-            font-size: 2.2rem;
-            letter-spacing: 0.4rem;
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 0.3rem;
             text-transform: uppercase;
             background: linear-gradient(to right, var(--lavender), var(--frost));
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            color: transparent;
+        }
+
+        .admin-badge {
+            font-size: 0.7rem;
+            color: var(--frost);
+            letter-spacing: 0.15rem;
+            opacity: 0.7;
+            text-transform: uppercase;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            letter-spacing: 0.2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--lavender), var(--frost), var(--lavender));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #ccc;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .filter-bar {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--glass);
+            border: 1px solid rgba(191, 148, 255, 0.3);
+            color: var(--lavender);
+            padding: 0.7rem 1.5rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.1rem;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--lavender);
+            color: var(--midnight);
+            box-shadow: 0 0 20px rgba(191, 148, 255, 0.4);
+        }
+
+        .catalog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .product-card {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(191, 148, 255, 0.2);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-card:hover {
+            border-color: var(--lavender);
+            box-shadow: 0 0 30px rgba(191, 148, 255, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--lavender);
+            color: var(--midnight);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1rem;
+        }
+
+        .product-badge.elite {
+            background: linear-gradient(135deg, #ffd700, #ffed4e);
+            color: #000;
+        }
+
+        .product-sku {
+            font-size: 0.8rem;
+            color: var(--frost);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .product-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #fff;
+        }
+
+        .product-description {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .product-price {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--frost);
+            margin-bottom: 1rem;
+        }
+
+        .product-price.invite {
+            font-size: 1.3rem;
+            color: #ffd700;
+        }
+
+        .package-info {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border-left: 3px solid var(--lavender);
+        }
+
+        .package-name {
+            font-weight: 600;
+            color: var(--lavender);
             margin-bottom: 0.5rem;
         }
 
-        .subtitle {
-            color: var(--frost);
-            font-size: 0.9rem;
-            letter-spacing: 0.2rem;
-            text-transform: uppercase;
-            margin-bottom: 2rem;
-            opacity: 0.8;
-        }
-
-        .description {
-            font-weight: 300;
-            line-height: 1.6;
+        .package-contents {
+            font-size: 0.8rem;
             color: #ccc;
-            margin-bottom: 2.5rem;
+            line-height: 1.6;
         }
 
-        .vault-btn {
-            display: inline-block;
+        .buy-btn {
+            width: 100%;
             background: transparent;
-            color: var(--lavender);
             border: 1px solid var(--lavender);
-            padding: 1rem 2rem;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: bold;
-            transition: all 0.4s ease;
+            color: var(--lavender);
+            padding: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.1rem;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
         }
 
-        .vault-btn:hover {
+        .buy-btn:hover {
             background: var(--lavender);
             color: var(--midnight);
-            box-shadow: 0 0 25px var(--lavender);
-            cursor: pointer;
+            box-shadow: 0 0 20px rgba(191, 148, 255, 0.5);
+        }
+
+        .buy-btn.elite {
+            border-color: #ffd700;
+            color: #ffd700;
+        }
+
+        .buy-btn.elite:hover {
+            background: #ffd700;
+            color: #000;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            border-top: 1px solid rgba(191, 148, 255, 0.2);
+            margin-top: 4rem;
         }
 
         .footer-status {
-            margin-top: 3rem;
             font-size: 0.7rem;
-            color: rgba(135, 206, 250, 0.4);
-            letter-spacing: 2px;
+            color: rgba(135, 206, 250, 0.5);
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+        }
+
+        .loading {
+            text-align: center;
+            font-size: 1.2rem;
+            color: var(--lavender);
+            padding: 4rem;
+        }
+
+        .media-upload {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--deep-purple);
+            border: 2px solid var(--lavender);
+            border-radius: 16px;
+            padding: 2rem;
+            z-index: 1000;
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .media-upload.active {
+            display: block;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 999;
+        }
+
+        .overlay.active {
+            display: block;
+        }
+
+        .upload-header {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--lavender);
+        }
+
+        .upload-input {
+            width: 100%;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background: var(--glass);
+            border: 1px solid rgba(191, 148, 255, 0.3);
+            border-radius: 8px;
+            color: #fff;
+        }
+
+        .upload-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .upload-actions button {
+            flex: 1;
+            padding: 0.8rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .upload-cancel {
+            background: transparent;
+            border: 1px solid #999;
+            color: #999;
+        }
+
+        .upload-submit {
+            background: var(--lavender);
+            border: none;
+            color: var(--midnight);
         }
     </style>
 </head>
 <body>
-
-    <div class="sanctuary-box">
-        <h1>Astral Prisms</h1>
-        <div class="subtitle">Phoenix Wolf Systems</div>
-        
-        <p class="description">
-            Providing matured, high-frequency logic for 2026 infrastructure. 
-            Our recursive labyrinth architecture secures the world's most 
-            critical logistics and identity systems.
-        </p>
-
-        <a href="https://drive.proton.me/urls/EN78NXE07C#6pDSjTuFFuJh" class="vault-btn" target="_blank" rel="noopener noreferrer" aria-label="Open the vault in a new tab">Enter the Vault</a>
-
-        <div class="footer-status">
-            STATUS: PERSISTENT // MATURED // SECURE
+    <div class="header">
+        <div class="header-content">
+            <div>
+                <div class="logo">Phoenix Wolf</div>
+                <div class="admin-badge">Curated by Keli</div>
+            </div>
         </div>
     </div>
 
+    <div class="container">
+        <div class="hero">
+            <h1>Sovereign OS Catalog</h1>
+            <p>Industry-leading security and infrastructure solutions. Pre-verified, legally compliant, and ready for deployment. All packages include auto-delivery for immediate access.</p>
+        </div>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">All Solutions</button>
+            <button class="filter-btn" data-filter="L">Basic ($49)</button>
+            <button class="filter-btn" data-filter="M">Standard ($149)</button>
+            <button class="filter-btn" data-filter="H">Pro ($499)</button>
+            <button class="filter-btn" data-filter="Elite">Elite (Invite Only)</button>
+        </div>
+
+        <div id="catalog" class="catalog-grid">
+            <div class="loading">Loading catalog...</div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="media-upload" id="mediaUpload">
+        <h2 class="upload-header">Upload Media</h2>
+        <input type="file" class="upload-input" id="fileInput" accept="image/*,video/*,application/pdf">
+        <div style="margin-bottom: 1rem;">
+            <label style="color: #aaa; font-size: 0.9rem;">Or paste YouTube URL:</label>
+            <input type="text" class="upload-input" id="youtubeUrl" placeholder="https://youtube.com/watch?v=...">
+        </div>
+        <div class="upload-actions">
+            <button class="upload-cancel" onclick="closeMediaUpload()">Cancel</button>
+            <button class="upload-submit" onclick="submitMedia()">Upload</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-status">
+            Phoenix Wolf Systems // Sovereign OS // Status: Active // Admin: Keli
+        </div>
+    </div>
+
+    <script>
+        let catalogData = [];
+        let currentFilter = 'all';
+
+        // Load catalog from industries.json
+        async function loadCatalog() {
+            try {
+                const response = await fetch('/assets/industries.json');
+                catalogData = await response.json();
+                renderCatalog();
+            } catch (error) {
+                document.getElementById('catalog').innerHTML = 
+                    '<div class="loading" style="color: #ff6b6b;">Error loading catalog. Please refresh the page.</div>';
+            }
+        }
+
+        function renderCatalog() {
+            const container = document.getElementById('catalog');
+            const filtered = currentFilter === 'all' 
+                ? catalogData 
+                : catalogData.filter(item => item.price_band === currentFilter);
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="loading">No products found.</div>';
+                return;
+            }
+
+            container.innerHTML = filtered.map(product => `
+                <div class="product-card" data-id="${product.id}">
+                    <span class="product-badge ${product.price_band === 'Elite' ? 'elite' : ''}">${product.price_band}</span>
+                    <div class="product-sku">${product.sku}</div>
+                    <h3 class="product-name">${product.name}</h3>
+                    <p class="product-description">${product.description}</p>
+                    <div class="product-price ${product.price_usd === null ? 'invite' : ''}">
+                        ${product.price_usd !== null ? '$' + product.price_usd : product.price_note}
+                    </div>
+                    <div class="package-info">
+                        <div class="package-name">${product.package.name}</div>
+                        <div class="package-contents">
+                            ${product.package.contents.slice(0, 3).join(' • ')}
+                        </div>
+                    </div>
+                    <button class="buy-btn ${product.price_band === 'Elite' ? 'elite' : ''}" 
+                            onclick="handleCheckout(${product.id})">
+                        ${product.presold ? 'Get Instant Access' : 'Purchase Now'}
+                    </button>
+                </div>
+            `).join('');
+        }
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                renderCatalog();
+            });
+        });
+
+        // Checkout handler
+        async function handleCheckout(productId) {
+            const product = catalogData.find(p => p.id === productId);
+            if (!product) return;
+
+            try {
+                const response = await fetch('/api/create-checkout', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        product_id: productId,
+                        sku: product.sku,
+                        buyer_email: prompt('Enter your email for delivery:')
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (result.presold_delivery) {
+                    alert(`Success! Your package has been auto-delivered.\n\nAccess link: ${result.delivery_url}\n\nCheck your email for details.`);
+                } else {
+                    window.location.href = result.checkout_url;
+                }
+            } catch (error) {
+                alert('Error processing checkout. Please try again.');
+            }
+        }
+
+        // Media upload functions
+        function openMediaUpload() {
+            document.getElementById('overlay').classList.add('active');
+            document.getElementById('mediaUpload').classList.add('active');
+        }
+
+        function closeMediaUpload() {
+            document.getElementById('overlay').classList.remove('active');
+            document.getElementById('mediaUpload').classList.remove('active');
+            document.getElementById('fileInput').value = '';
+            document.getElementById('youtubeUrl').value = '';
+        }
+
+        function submitMedia() {
+            const file = document.getElementById('fileInput').files[0];
+            const youtubeUrl = document.getElementById('youtubeUrl').value;
+
+            if (file) {
+                // HTML5 file upload
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('admin', 'Keli');
+                
+                fetch('/api/upload-media', {
+                    method: 'POST',
+                    body: formData
+                }).then(() => {
+                    alert('File uploaded successfully!');
+                    closeMediaUpload();
+                });
+            } else if (youtubeUrl) {
+                // Store YouTube embed
+                alert('YouTube embed saved: ' + youtubeUrl);
+                closeMediaUpload();
+            }
+        }
+
+        // Initialize
+        loadCatalog();
+    </script>
 </body>
 </html>

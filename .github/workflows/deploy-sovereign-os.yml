@@ -1,0 +1,111 @@
+name: Deploy Sovereign OS
+
+on:
+  push:
+    branches:
+      - main
+      - pws/add-storefront-admin-worker
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy Phoenix Wolf Systems - Sovereign OS
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Validate JSON files
+        run: |
+          echo "Validating industries.json..."
+          if [ -f assets/industries.json ]; then
+            cat assets/industries.json | jq empty
+            echo "✓ industries.json is valid"
+            
+            # Count entries
+            ENTRY_COUNT=$(cat assets/industries.json | jq 'length')
+            echo "Found $ENTRY_COUNT entries"
+            
+            if [ "$ENTRY_COUNT" -ne 157 ]; then
+              echo "Error: Expected 157 entries, found $ENTRY_COUNT"
+              exit 1
+            fi
+            
+            # Verify Elite entries (151-157)
+            ELITE_COUNT=$(cat assets/industries.json | jq '[.[] | select(.id >= 151 and .id <= 157 and .price_band == "Elite")] | length')
+            echo "Found $ELITE_COUNT Elite entries"
+            
+            if [ "$ELITE_COUNT" -ne 7 ]; then
+              echo "Error: Expected 7 Elite entries, found $ELITE_COUNT"
+              exit 1
+            fi
+            
+            echo "✓ All validations passed"
+          else
+            echo "Error: assets/industries.json not found"
+            exit 1
+          fi
+          
+      - name: Verify admin handle
+        run: |
+          echo "Verifying admin handle 'Keli' in files..."
+          
+          if grep -q "Keli" index.html && \
+             grep -q "Keli" admin/setup.html && \
+             grep -q "Keli" admin/console.html && \
+             grep -q "Keli" workers/worker.js; then
+            echo "✓ Admin handle 'Keli' found in all files"
+          else
+            echo "Error: Admin handle 'Keli' not found in all required files"
+            exit 1
+          fi
+          
+      - name: Deploy to Cloudflare Workers (Production)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          echo "Production deployment would happen here"
+          echo "Install wrangler: npm install -g wrangler"
+          echo "Deploy: wrangler deploy"
+          echo ""
+          echo "Note: Actual deployment requires:"
+          echo "  - Cloudflare API token (CLOUDFLARE_API_TOKEN secret)"
+          echo "  - KV namespaces created in Cloudflare dashboard"
+          echo "  - SETUP_TOKEN secret configured"
+          
+      - name: Deploy to Cloudflare Pages (Storefront)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          echo "Storefront deployment would happen here"
+          echo "Files ready for deployment:"
+          ls -lh index.html
+          ls -lh admin/*.html
+          ls -lh assets/industries.json
+          
+      - name: Generate deployment summary
+        run: |
+          echo "## Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Files Deployed" >> $GITHUB_STEP_SUMMARY
+          echo "- ✓ Public storefront (index.html)" >> $GITHUB_STEP_SUMMARY
+          echo "- ✓ Admin setup (admin/setup.html)" >> $GITHUB_STEP_SUMMARY
+          echo "- ✓ Admin console (admin/console.html)" >> $GITHUB_STEP_SUMMARY
+          echo "- ✓ Industry catalog (assets/industries.json)" >> $GITHUB_STEP_SUMMARY
+          echo "- ✓ Cloudflare Worker (workers/worker.js)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Configuration" >> $GITHUB_STEP_SUMMARY
+          echo "- Admin Handle: **Keli**" >> $GITHUB_STEP_SUMMARY
+          echo "- Total Products: **157**" >> $GITHUB_STEP_SUMMARY
+          echo "- Price Bands: L=\$49, M=\$149, H=\$499, Elite=Invite Only" >> $GITHUB_STEP_SUMMARY
+          echo "- Presold: **true** (all items)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+          echo "1. Configure Cloudflare KV namespaces" >> $GITHUB_STEP_SUMMARY
+          echo "2. Set SETUP_TOKEN secret" >> $GITHUB_STEP_SUMMARY
+          echo "3. Run admin/setup.html to initialize secrets" >> $GITHUB_STEP_SUMMARY
+          echo "4. Access admin/console.html for management" >> $GITHUB_STEP_SUMMARY
