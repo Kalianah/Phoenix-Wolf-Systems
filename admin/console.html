@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Console - Phoenix Wolf Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --midnight: #0d0221;
+            --deep-purple: #1a0b2e;
+            --lavender: #bf94ff;
+            --frost: #87cefa;
+            --glass: rgba(255, 255, 255, 0.05);
+            --success: #2ed573;
+            --warning: #ffa502;
+            --error: #ff6b6b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle at top right, #1a0b2e 0%, var(--midnight) 50%, #0a0510 100%);
+            color: #f0f0f0;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+        }
+
+        .header {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(191, 148, 255, 0.2);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1600px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.3rem;
+            text-transform: uppercase;
+            background: linear-gradient(to right, var(--lavender), var(--frost));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .admin-info {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .admin-badge {
+            font-size: 0.8rem;
+            color: var(--frost);
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.8rem;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .panel {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(191, 148, 255, 0.2);
+            border-radius: 16px;
+            padding: 1.5rem;
+        }
+
+        .panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba(191, 148, 255, 0.2);
+        }
+
+        .panel-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--lavender);
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        .panel-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .icon-btn {
+            background: transparent;
+            border: 1px solid rgba(191, 148, 255, 0.3);
+            color: var(--lavender);
+            padding: 0.5rem 0.8rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.8rem;
+        }
+
+        .icon-btn:hover {
+            background: var(--lavender);
+            color: var(--midnight);
+        }
+
+        .connect-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .connect-btn {
+            background: transparent;
+            border: 1px solid var(--frost);
+            color: var(--frost);
+            padding: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-size: 0.9rem;
+        }
+
+        .connect-btn:hover {
+            background: var(--frost);
+            color: var(--midnight);
+            box-shadow: 0 0 20px rgba(135, 206, 250, 0.3);
+        }
+
+        .connect-btn.connected {
+            border-color: var(--success);
+            color: var(--success);
+        }
+
+        .manual-token {
+            margin-top: 1rem;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+        }
+
+        .manual-token input {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(191, 148, 255, 0.3);
+            border-radius: 6px;
+            padding: 0.8rem;
+            color: #fff;
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+
+        .manual-token label {
+            font-size: 0.8rem;
+            color: #aaa;
+            display: block;
+        }
+
+        .log-list {
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: 'Courier Prime', monospace;
+            font-size: 0.85rem;
+        }
+
+        .log-entry {
+            padding: 0.8rem;
+            margin-bottom: 0.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-left: 3px solid var(--frost);
+            border-radius: 4px;
+            line-height: 1.5;
+        }
+
+        .log-entry.error {
+            border-left-color: var(--error);
+        }
+
+        .log-entry.success {
+            border-left-color: var(--success);
+        }
+
+        .log-timestamp {
+            color: var(--frost);
+            font-size: 0.75rem;
+        }
+
+        .log-admin {
+            color: var(--lavender);
+            font-weight: 600;
+        }
+
+        .log-message {
+            color: #ddd;
+            margin-top: 0.3rem;
+        }
+
+        .message-item {
+            padding: 1rem;
+            margin-bottom: 0.8rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(191, 148, 255, 0.1);
+        }
+
+        .message-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+
+        .message-from {
+            color: var(--lavender);
+            font-weight: 600;
+        }
+
+        .message-time {
+            color: #aaa;
+            font-size: 0.8rem;
+        }
+
+        .message-subject {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .message-body {
+            color: #ccc;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .catalog-preview {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .catalog-item {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(191, 148, 255, 0.1);
+        }
+
+        .catalog-sku {
+            color: var(--frost);
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .catalog-name {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .catalog-price {
+            color: var(--lavender);
+            font-weight: 700;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 2rem;
+            color: #888;
+            font-style: italic;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-box {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--frost);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: #aaa;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            margin-top: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div>
+                <div class="logo">Admin Console</div>
+            </div>
+            <div class="admin-info">
+                <div class="admin-badge">Admin: Keli</div>
+                <div class="status-indicator">
+                    <div class="status-dot"></div>
+                    <span>System Active</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="dashboard-grid">
+            <!-- Connections Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title">Connections</div>
+                </div>
+                <div class="connect-section">
+                    <button class="connect-btn" onclick="initiateOAuth('stripe')">
+                        Connect Stripe
+                    </button>
+                    <button class="connect-btn" onclick="initiateOAuth('protonmail')">
+                        Connect ProtonMail
+                    </button>
+                    <button class="connect-btn" onclick="initiateOAuth('youtube')">
+                        Connect YouTube
+                    </button>
+                    
+                    <div class="manual-token">
+                        <label>Manual Token Override:</label>
+                        <input type="password" id="manualToken" placeholder="Paste token for manual connection">
+                        <button class="icon-btn" style="margin-top: 0.5rem; width: 100%;" onclick="saveManualToken()">
+                            Save Token
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title">Statistics</div>
+                    <div class="panel-actions">
+                        <button class="icon-btn" onclick="refreshStats()">↻</button>
+                    </div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-value" id="totalProducts">157</div>
+                        <div class="stat-label">Products</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="totalMessages">0</div>
+                        <div class="stat-label">Messages</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-value" id="totalLogs">0</div>
+                        <div class="stat-label">Audit Logs</div>
+                    </div>
+                </div>
+                <div id="catalogPreview" class="catalog-preview">
+                    <div class="empty-state">Loading catalog...</div>
+                </div>
+            </div>
+
+            <!-- Inbound Messages Panel -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title">Inbound Messages</div>
+                    <div class="panel-actions">
+                        <button class="icon-btn" onclick="refreshMessages()">↻</button>
+                    </div>
+                </div>
+                <div id="messagesList" class="log-list">
+                    <div class="empty-state">No messages yet</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Audit Logs Panel (Full Width) -->
+        <div class="panel">
+            <div class="panel-header">
+                <div class="panel-title">Audit Logs</div>
+                <div class="panel-actions">
+                    <button class="icon-btn" onclick="refreshAuditLogs()">↻</button>
+                    <button class="icon-btn" onclick="exportLogs()">Export</button>
+                </div>
+            </div>
+            <div id="auditLogs" class="log-list">
+                <div class="empty-state">No audit logs yet</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // OAuth initiation
+        async function initiateOAuth(provider) {
+            try {
+                const response = await fetch(`/api/oauth/init?provider=${provider}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const result = await response.json();
+                
+                if (result.auth_url) {
+                    // Open OAuth window
+                    window.open(result.auth_url, '_blank', 'width=600,height=700');
+                    
+                    // Log the connection attempt
+                    await logAudit('oauth_init', `Initiated OAuth for ${provider}`);
+                } else {
+                    alert('Error initiating OAuth');
+                }
+            } catch (error) {
+                console.error('OAuth error:', error);
+                alert('Failed to initiate OAuth connection');
+            }
+        }
+
+        // Manual token save
+        async function saveManualToken() {
+            const token = document.getElementById('manualToken').value;
+            if (!token) {
+                alert('Please enter a token');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/store-token', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ token })
+                });
+
+                if (response.ok) {
+                    alert('Token saved successfully');
+                    document.getElementById('manualToken').value = '';
+                    await logAudit('token_stored', 'Manual token stored');
+                } else {
+                    alert('Failed to save token');
+                }
+            } catch (error) {
+                console.error('Token save error:', error);
+                alert('Error saving token');
+            }
+        }
+
+        // Load catalog preview
+        async function loadCatalogPreview() {
+            try {
+                const response = await fetch('/assets/industries.json');
+                const catalog = await response.json();
+                
+                document.getElementById('totalProducts').textContent = catalog.length;
+                
+                const container = document.getElementById('catalogPreview');
+                const preview = catalog.slice(0, 6);
+                
+                container.innerHTML = preview.map(item => `
+                    <div class="catalog-item">
+                        <div class="catalog-sku">${item.sku}</div>
+                        <div class="catalog-name">${item.name}</div>
+                        <div class="catalog-price">
+                            ${item.price_usd ? '$' + item.price_usd : item.price_note}
+                        </div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading catalog:', error);
+            }
+        }
+
+        // Load audit logs
+        async function refreshAuditLogs() {
+            try {
+                const response = await fetch('/api/audit/logs');
+                const logs = await response.json();
+                
+                document.getElementById('totalLogs').textContent = logs.length || 0;
+                
+                const container = document.getElementById('auditLogs');
+                
+                if (logs.length === 0) {
+                    container.innerHTML = '<div class="empty-state">No audit logs yet</div>';
+                    return;
+                }
+                
+                container.innerHTML = logs.map(log => `
+                    <div class="log-entry ${log.status || ''}">
+                        <div class="log-timestamp">${new Date(log.timestamp).toLocaleString()}</div>
+                        <div class="log-admin">Admin: ${log.admin || 'Keli'}</div>
+                        <div class="log-message">${log.action}: ${log.details}</div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading audit logs:', error);
+            }
+        }
+
+        // Load messages
+        async function refreshMessages() {
+            try {
+                const response = await fetch('/api/inbound-messages');
+                const messages = await response.json();
+                
+                document.getElementById('totalMessages').textContent = messages.length || 0;
+                
+                const container = document.getElementById('messagesList');
+                
+                if (messages.length === 0) {
+                    container.innerHTML = '<div class="empty-state">No messages yet</div>';
+                    return;
+                }
+                
+                container.innerHTML = messages.map(msg => `
+                    <div class="message-item">
+                        <div class="message-header">
+                            <div class="message-from">${msg.from}</div>
+                            <div class="message-time">${new Date(msg.timestamp).toLocaleString()}</div>
+                        </div>
+                        <div class="message-subject">${msg.subject}</div>
+                        <div class="message-body">${msg.body}</div>
+                    </div>
+                `).join('');
+            } catch (error) {
+                console.error('Error loading messages:', error);
+            }
+        }
+
+        // Log audit entry
+        async function logAudit(action, details) {
+            try {
+                await fetch('/api/audit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        admin: 'Keli', // Force admin to Keli
+                        action: action,
+                        details: details,
+                        timestamp: new Date().toISOString()
+                    })
+                });
+            } catch (error) {
+                console.error('Error logging audit:', error);
+            }
+        }
+
+        // Refresh stats
+        function refreshStats() {
+            loadCatalogPreview();
+            refreshAuditLogs();
+            refreshMessages();
+        }
+
+        // Export logs
+        function exportLogs() {
+            fetch('/api/audit/logs')
+                .then(res => res.json())
+                .then(logs => {
+                    const dataStr = JSON.stringify(logs, null, 2);
+                    const dataBlob = new Blob([dataStr], { type: 'application/json' });
+                    const url = URL.createObjectURL(dataBlob);
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = `audit-logs-${Date.now()}.json`;
+                    link.click();
+                });
+        }
+
+        // Initialize
+        loadCatalogPreview();
+        refreshAuditLogs();
+        refreshMessages();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(() => {
+            refreshAuditLogs();
+            refreshMessages();
+        }, 30000);
+
+        // Log console access
+        logAudit('console_access', 'Admin console accessed');
+    </script>
+</body>
+</html>

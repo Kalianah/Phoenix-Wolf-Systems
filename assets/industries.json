@@ -1,0 +1,3627 @@
+[
+  {
+    "id": 1,
+    "sku": "PWS-0001",
+    "name": "Industry Solution 1",
+    "description": "High-frequency logic and security solution for industry vertical 1",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0001-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0001-package.zip"
+    }
+  },
+  {
+    "id": 2,
+    "sku": "PWS-0002",
+    "name": "Industry Solution 2",
+    "description": "High-frequency logic and security solution for industry vertical 2",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0002-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0002-package.zip"
+    }
+  },
+  {
+    "id": 3,
+    "sku": "PWS-0003",
+    "name": "Industry Solution 3",
+    "description": "High-frequency logic and security solution for industry vertical 3",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0003-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0003-package.zip"
+    }
+  },
+  {
+    "id": 4,
+    "sku": "PWS-0004",
+    "name": "Industry Solution 4",
+    "description": "High-frequency logic and security solution for industry vertical 4",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0004-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0004-package.zip"
+    }
+  },
+  {
+    "id": 5,
+    "sku": "PWS-0005",
+    "name": "Industry Solution 5",
+    "description": "High-frequency logic and security solution for industry vertical 5",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0005-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0005-package.zip"
+    }
+  },
+  {
+    "id": 6,
+    "sku": "PWS-0006",
+    "name": "Industry Solution 6",
+    "description": "High-frequency logic and security solution for industry vertical 6",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0006-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0006-package.zip"
+    }
+  },
+  {
+    "id": 7,
+    "sku": "PWS-0007",
+    "name": "Industry Solution 7",
+    "description": "High-frequency logic and security solution for industry vertical 7",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0007-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0007-package.zip"
+    }
+  },
+  {
+    "id": 8,
+    "sku": "PWS-0008",
+    "name": "Industry Solution 8",
+    "description": "High-frequency logic and security solution for industry vertical 8",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0008-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0008-package.zip"
+    }
+  },
+  {
+    "id": 9,
+    "sku": "PWS-0009",
+    "name": "Industry Solution 9",
+    "description": "High-frequency logic and security solution for industry vertical 9",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0009-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0009-package.zip"
+    }
+  },
+  {
+    "id": 10,
+    "sku": "PWS-0010",
+    "name": "Industry Solution 10",
+    "description": "High-frequency logic and security solution for industry vertical 10",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0010-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0010-package.zip"
+    }
+  },
+  {
+    "id": 11,
+    "sku": "PWS-0011",
+    "name": "Industry Solution 11",
+    "description": "High-frequency logic and security solution for industry vertical 11",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0011-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0011-package.zip"
+    }
+  },
+  {
+    "id": 12,
+    "sku": "PWS-0012",
+    "name": "Industry Solution 12",
+    "description": "High-frequency logic and security solution for industry vertical 12",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0012-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0012-package.zip"
+    }
+  },
+  {
+    "id": 13,
+    "sku": "PWS-0013",
+    "name": "Industry Solution 13",
+    "description": "High-frequency logic and security solution for industry vertical 13",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0013-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0013-package.zip"
+    }
+  },
+  {
+    "id": 14,
+    "sku": "PWS-0014",
+    "name": "Industry Solution 14",
+    "description": "High-frequency logic and security solution for industry vertical 14",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0014-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0014-package.zip"
+    }
+  },
+  {
+    "id": 15,
+    "sku": "PWS-0015",
+    "name": "Industry Solution 15",
+    "description": "High-frequency logic and security solution for industry vertical 15",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0015-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0015-package.zip"
+    }
+  },
+  {
+    "id": 16,
+    "sku": "PWS-0016",
+    "name": "Industry Solution 16",
+    "description": "High-frequency logic and security solution for industry vertical 16",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0016-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0016-package.zip"
+    }
+  },
+  {
+    "id": 17,
+    "sku": "PWS-0017",
+    "name": "Industry Solution 17",
+    "description": "High-frequency logic and security solution for industry vertical 17",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0017-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0017-package.zip"
+    }
+  },
+  {
+    "id": 18,
+    "sku": "PWS-0018",
+    "name": "Industry Solution 18",
+    "description": "High-frequency logic and security solution for industry vertical 18",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0018-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0018-package.zip"
+    }
+  },
+  {
+    "id": 19,
+    "sku": "PWS-0019",
+    "name": "Industry Solution 19",
+    "description": "High-frequency logic and security solution for industry vertical 19",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0019-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0019-package.zip"
+    }
+  },
+  {
+    "id": 20,
+    "sku": "PWS-0020",
+    "name": "Industry Solution 20",
+    "description": "High-frequency logic and security solution for industry vertical 20",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0020-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0020-package.zip"
+    }
+  },
+  {
+    "id": 21,
+    "sku": "PWS-0021",
+    "name": "Industry Solution 21",
+    "description": "High-frequency logic and security solution for industry vertical 21",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0021-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0021-package.zip"
+    }
+  },
+  {
+    "id": 22,
+    "sku": "PWS-0022",
+    "name": "Industry Solution 22",
+    "description": "High-frequency logic and security solution for industry vertical 22",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0022-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0022-package.zip"
+    }
+  },
+  {
+    "id": 23,
+    "sku": "PWS-0023",
+    "name": "Industry Solution 23",
+    "description": "High-frequency logic and security solution for industry vertical 23",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0023-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0023-package.zip"
+    }
+  },
+  {
+    "id": 24,
+    "sku": "PWS-0024",
+    "name": "Industry Solution 24",
+    "description": "High-frequency logic and security solution for industry vertical 24",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0024-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0024-package.zip"
+    }
+  },
+  {
+    "id": 25,
+    "sku": "PWS-0025",
+    "name": "Industry Solution 25",
+    "description": "High-frequency logic and security solution for industry vertical 25",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0025-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0025-package.zip"
+    }
+  },
+  {
+    "id": 26,
+    "sku": "PWS-0026",
+    "name": "Industry Solution 26",
+    "description": "High-frequency logic and security solution for industry vertical 26",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0026-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0026-package.zip"
+    }
+  },
+  {
+    "id": 27,
+    "sku": "PWS-0027",
+    "name": "Industry Solution 27",
+    "description": "High-frequency logic and security solution for industry vertical 27",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0027-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0027-package.zip"
+    }
+  },
+  {
+    "id": 28,
+    "sku": "PWS-0028",
+    "name": "Industry Solution 28",
+    "description": "High-frequency logic and security solution for industry vertical 28",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0028-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0028-package.zip"
+    }
+  },
+  {
+    "id": 29,
+    "sku": "PWS-0029",
+    "name": "Industry Solution 29",
+    "description": "High-frequency logic and security solution for industry vertical 29",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0029-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0029-package.zip"
+    }
+  },
+  {
+    "id": 30,
+    "sku": "PWS-0030",
+    "name": "Industry Solution 30",
+    "description": "High-frequency logic and security solution for industry vertical 30",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0030-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0030-package.zip"
+    }
+  },
+  {
+    "id": 31,
+    "sku": "PWS-0031",
+    "name": "Industry Solution 31",
+    "description": "High-frequency logic and security solution for industry vertical 31",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0031-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0031-package.zip"
+    }
+  },
+  {
+    "id": 32,
+    "sku": "PWS-0032",
+    "name": "Industry Solution 32",
+    "description": "High-frequency logic and security solution for industry vertical 32",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0032-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0032-package.zip"
+    }
+  },
+  {
+    "id": 33,
+    "sku": "PWS-0033",
+    "name": "Industry Solution 33",
+    "description": "High-frequency logic and security solution for industry vertical 33",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0033-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0033-package.zip"
+    }
+  },
+  {
+    "id": 34,
+    "sku": "PWS-0034",
+    "name": "Industry Solution 34",
+    "description": "High-frequency logic and security solution for industry vertical 34",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0034-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0034-package.zip"
+    }
+  },
+  {
+    "id": 35,
+    "sku": "PWS-0035",
+    "name": "Industry Solution 35",
+    "description": "High-frequency logic and security solution for industry vertical 35",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0035-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0035-package.zip"
+    }
+  },
+  {
+    "id": 36,
+    "sku": "PWS-0036",
+    "name": "Industry Solution 36",
+    "description": "High-frequency logic and security solution for industry vertical 36",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0036-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0036-package.zip"
+    }
+  },
+  {
+    "id": 37,
+    "sku": "PWS-0037",
+    "name": "Industry Solution 37",
+    "description": "High-frequency logic and security solution for industry vertical 37",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0037-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0037-package.zip"
+    }
+  },
+  {
+    "id": 38,
+    "sku": "PWS-0038",
+    "name": "Industry Solution 38",
+    "description": "High-frequency logic and security solution for industry vertical 38",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0038-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0038-package.zip"
+    }
+  },
+  {
+    "id": 39,
+    "sku": "PWS-0039",
+    "name": "Industry Solution 39",
+    "description": "High-frequency logic and security solution for industry vertical 39",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0039-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0039-package.zip"
+    }
+  },
+  {
+    "id": 40,
+    "sku": "PWS-0040",
+    "name": "Industry Solution 40",
+    "description": "High-frequency logic and security solution for industry vertical 40",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0040-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0040-package.zip"
+    }
+  },
+  {
+    "id": 41,
+    "sku": "PWS-0041",
+    "name": "Industry Solution 41",
+    "description": "High-frequency logic and security solution for industry vertical 41",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0041-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0041-package.zip"
+    }
+  },
+  {
+    "id": 42,
+    "sku": "PWS-0042",
+    "name": "Industry Solution 42",
+    "description": "High-frequency logic and security solution for industry vertical 42",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0042-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0042-package.zip"
+    }
+  },
+  {
+    "id": 43,
+    "sku": "PWS-0043",
+    "name": "Industry Solution 43",
+    "description": "High-frequency logic and security solution for industry vertical 43",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0043-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0043-package.zip"
+    }
+  },
+  {
+    "id": 44,
+    "sku": "PWS-0044",
+    "name": "Industry Solution 44",
+    "description": "High-frequency logic and security solution for industry vertical 44",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0044-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0044-package.zip"
+    }
+  },
+  {
+    "id": 45,
+    "sku": "PWS-0045",
+    "name": "Industry Solution 45",
+    "description": "High-frequency logic and security solution for industry vertical 45",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0045-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0045-package.zip"
+    }
+  },
+  {
+    "id": 46,
+    "sku": "PWS-0046",
+    "name": "Industry Solution 46",
+    "description": "High-frequency logic and security solution for industry vertical 46",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0046-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0046-package.zip"
+    }
+  },
+  {
+    "id": 47,
+    "sku": "PWS-0047",
+    "name": "Industry Solution 47",
+    "description": "High-frequency logic and security solution for industry vertical 47",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0047-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0047-package.zip"
+    }
+  },
+  {
+    "id": 48,
+    "sku": "PWS-0048",
+    "name": "Industry Solution 48",
+    "description": "High-frequency logic and security solution for industry vertical 48",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0048-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0048-package.zip"
+    }
+  },
+  {
+    "id": 49,
+    "sku": "PWS-0049",
+    "name": "Industry Solution 49",
+    "description": "High-frequency logic and security solution for industry vertical 49",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0049-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0049-package.zip"
+    }
+  },
+  {
+    "id": 50,
+    "sku": "PWS-0050",
+    "name": "Industry Solution 50",
+    "description": "High-frequency logic and security solution for industry vertical 50",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0050-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0050-package.zip"
+    }
+  },
+  {
+    "id": 51,
+    "sku": "PWS-0051",
+    "name": "Industry Solution 51",
+    "description": "High-frequency logic and security solution for industry vertical 51",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0051-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0051-package.zip"
+    }
+  },
+  {
+    "id": 52,
+    "sku": "PWS-0052",
+    "name": "Industry Solution 52",
+    "description": "High-frequency logic and security solution for industry vertical 52",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0052-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0052-package.zip"
+    }
+  },
+  {
+    "id": 53,
+    "sku": "PWS-0053",
+    "name": "Industry Solution 53",
+    "description": "High-frequency logic and security solution for industry vertical 53",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0053-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0053-package.zip"
+    }
+  },
+  {
+    "id": 54,
+    "sku": "PWS-0054",
+    "name": "Industry Solution 54",
+    "description": "High-frequency logic and security solution for industry vertical 54",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0054-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0054-package.zip"
+    }
+  },
+  {
+    "id": 55,
+    "sku": "PWS-0055",
+    "name": "Industry Solution 55",
+    "description": "High-frequency logic and security solution for industry vertical 55",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0055-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0055-package.zip"
+    }
+  },
+  {
+    "id": 56,
+    "sku": "PWS-0056",
+    "name": "Industry Solution 56",
+    "description": "High-frequency logic and security solution for industry vertical 56",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0056-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0056-package.zip"
+    }
+  },
+  {
+    "id": 57,
+    "sku": "PWS-0057",
+    "name": "Industry Solution 57",
+    "description": "High-frequency logic and security solution for industry vertical 57",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0057-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0057-package.zip"
+    }
+  },
+  {
+    "id": 58,
+    "sku": "PWS-0058",
+    "name": "Industry Solution 58",
+    "description": "High-frequency logic and security solution for industry vertical 58",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0058-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0058-package.zip"
+    }
+  },
+  {
+    "id": 59,
+    "sku": "PWS-0059",
+    "name": "Industry Solution 59",
+    "description": "High-frequency logic and security solution for industry vertical 59",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0059-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0059-package.zip"
+    }
+  },
+  {
+    "id": 60,
+    "sku": "PWS-0060",
+    "name": "Industry Solution 60",
+    "description": "High-frequency logic and security solution for industry vertical 60",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0060-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0060-package.zip"
+    }
+  },
+  {
+    "id": 61,
+    "sku": "PWS-0061",
+    "name": "Industry Solution 61",
+    "description": "High-frequency logic and security solution for industry vertical 61",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0061-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0061-package.zip"
+    }
+  },
+  {
+    "id": 62,
+    "sku": "PWS-0062",
+    "name": "Industry Solution 62",
+    "description": "High-frequency logic and security solution for industry vertical 62",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0062-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0062-package.zip"
+    }
+  },
+  {
+    "id": 63,
+    "sku": "PWS-0063",
+    "name": "Industry Solution 63",
+    "description": "High-frequency logic and security solution for industry vertical 63",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0063-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0063-package.zip"
+    }
+  },
+  {
+    "id": 64,
+    "sku": "PWS-0064",
+    "name": "Industry Solution 64",
+    "description": "High-frequency logic and security solution for industry vertical 64",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0064-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0064-package.zip"
+    }
+  },
+  {
+    "id": 65,
+    "sku": "PWS-0065",
+    "name": "Industry Solution 65",
+    "description": "High-frequency logic and security solution for industry vertical 65",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0065-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0065-package.zip"
+    }
+  },
+  {
+    "id": 66,
+    "sku": "PWS-0066",
+    "name": "Industry Solution 66",
+    "description": "High-frequency logic and security solution for industry vertical 66",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0066-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0066-package.zip"
+    }
+  },
+  {
+    "id": 67,
+    "sku": "PWS-0067",
+    "name": "Industry Solution 67",
+    "description": "High-frequency logic and security solution for industry vertical 67",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0067-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0067-package.zip"
+    }
+  },
+  {
+    "id": 68,
+    "sku": "PWS-0068",
+    "name": "Industry Solution 68",
+    "description": "High-frequency logic and security solution for industry vertical 68",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0068-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0068-package.zip"
+    }
+  },
+  {
+    "id": 69,
+    "sku": "PWS-0069",
+    "name": "Industry Solution 69",
+    "description": "High-frequency logic and security solution for industry vertical 69",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0069-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0069-package.zip"
+    }
+  },
+  {
+    "id": 70,
+    "sku": "PWS-0070",
+    "name": "Industry Solution 70",
+    "description": "High-frequency logic and security solution for industry vertical 70",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0070-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0070-package.zip"
+    }
+  },
+  {
+    "id": 71,
+    "sku": "PWS-0071",
+    "name": "Industry Solution 71",
+    "description": "High-frequency logic and security solution for industry vertical 71",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0071-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0071-package.zip"
+    }
+  },
+  {
+    "id": 72,
+    "sku": "PWS-0072",
+    "name": "Industry Solution 72",
+    "description": "High-frequency logic and security solution for industry vertical 72",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0072-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0072-package.zip"
+    }
+  },
+  {
+    "id": 73,
+    "sku": "PWS-0073",
+    "name": "Industry Solution 73",
+    "description": "High-frequency logic and security solution for industry vertical 73",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0073-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0073-package.zip"
+    }
+  },
+  {
+    "id": 74,
+    "sku": "PWS-0074",
+    "name": "Industry Solution 74",
+    "description": "High-frequency logic and security solution for industry vertical 74",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0074-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0074-package.zip"
+    }
+  },
+  {
+    "id": 75,
+    "sku": "PWS-0075",
+    "name": "Industry Solution 75",
+    "description": "High-frequency logic and security solution for industry vertical 75",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0075-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0075-package.zip"
+    }
+  },
+  {
+    "id": 76,
+    "sku": "PWS-0076",
+    "name": "Industry Solution 76",
+    "description": "High-frequency logic and security solution for industry vertical 76",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0076-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0076-package.zip"
+    }
+  },
+  {
+    "id": 77,
+    "sku": "PWS-0077",
+    "name": "Industry Solution 77",
+    "description": "High-frequency logic and security solution for industry vertical 77",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0077-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0077-package.zip"
+    }
+  },
+  {
+    "id": 78,
+    "sku": "PWS-0078",
+    "name": "Industry Solution 78",
+    "description": "High-frequency logic and security solution for industry vertical 78",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0078-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0078-package.zip"
+    }
+  },
+  {
+    "id": 79,
+    "sku": "PWS-0079",
+    "name": "Industry Solution 79",
+    "description": "High-frequency logic and security solution for industry vertical 79",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0079-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0079-package.zip"
+    }
+  },
+  {
+    "id": 80,
+    "sku": "PWS-0080",
+    "name": "Industry Solution 80",
+    "description": "High-frequency logic and security solution for industry vertical 80",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0080-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0080-package.zip"
+    }
+  },
+  {
+    "id": 81,
+    "sku": "PWS-0081",
+    "name": "Industry Solution 81",
+    "description": "High-frequency logic and security solution for industry vertical 81",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0081-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0081-package.zip"
+    }
+  },
+  {
+    "id": 82,
+    "sku": "PWS-0082",
+    "name": "Industry Solution 82",
+    "description": "High-frequency logic and security solution for industry vertical 82",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0082-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0082-package.zip"
+    }
+  },
+  {
+    "id": 83,
+    "sku": "PWS-0083",
+    "name": "Industry Solution 83",
+    "description": "High-frequency logic and security solution for industry vertical 83",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0083-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0083-package.zip"
+    }
+  },
+  {
+    "id": 84,
+    "sku": "PWS-0084",
+    "name": "Industry Solution 84",
+    "description": "High-frequency logic and security solution for industry vertical 84",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0084-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0084-package.zip"
+    }
+  },
+  {
+    "id": 85,
+    "sku": "PWS-0085",
+    "name": "Industry Solution 85",
+    "description": "High-frequency logic and security solution for industry vertical 85",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0085-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0085-package.zip"
+    }
+  },
+  {
+    "id": 86,
+    "sku": "PWS-0086",
+    "name": "Industry Solution 86",
+    "description": "High-frequency logic and security solution for industry vertical 86",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0086-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0086-package.zip"
+    }
+  },
+  {
+    "id": 87,
+    "sku": "PWS-0087",
+    "name": "Industry Solution 87",
+    "description": "High-frequency logic and security solution for industry vertical 87",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0087-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0087-package.zip"
+    }
+  },
+  {
+    "id": 88,
+    "sku": "PWS-0088",
+    "name": "Industry Solution 88",
+    "description": "High-frequency logic and security solution for industry vertical 88",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0088-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0088-package.zip"
+    }
+  },
+  {
+    "id": 89,
+    "sku": "PWS-0089",
+    "name": "Industry Solution 89",
+    "description": "High-frequency logic and security solution for industry vertical 89",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0089-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0089-package.zip"
+    }
+  },
+  {
+    "id": 90,
+    "sku": "PWS-0090",
+    "name": "Industry Solution 90",
+    "description": "High-frequency logic and security solution for industry vertical 90",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0090-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0090-package.zip"
+    }
+  },
+  {
+    "id": 91,
+    "sku": "PWS-0091",
+    "name": "Industry Solution 91",
+    "description": "High-frequency logic and security solution for industry vertical 91",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0091-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0091-package.zip"
+    }
+  },
+  {
+    "id": 92,
+    "sku": "PWS-0092",
+    "name": "Industry Solution 92",
+    "description": "High-frequency logic and security solution for industry vertical 92",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0092-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0092-package.zip"
+    }
+  },
+  {
+    "id": 93,
+    "sku": "PWS-0093",
+    "name": "Industry Solution 93",
+    "description": "High-frequency logic and security solution for industry vertical 93",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0093-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0093-package.zip"
+    }
+  },
+  {
+    "id": 94,
+    "sku": "PWS-0094",
+    "name": "Industry Solution 94",
+    "description": "High-frequency logic and security solution for industry vertical 94",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0094-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0094-package.zip"
+    }
+  },
+  {
+    "id": 95,
+    "sku": "PWS-0095",
+    "name": "Industry Solution 95",
+    "description": "High-frequency logic and security solution for industry vertical 95",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0095-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0095-package.zip"
+    }
+  },
+  {
+    "id": 96,
+    "sku": "PWS-0096",
+    "name": "Industry Solution 96",
+    "description": "High-frequency logic and security solution for industry vertical 96",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0096-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0096-package.zip"
+    }
+  },
+  {
+    "id": 97,
+    "sku": "PWS-0097",
+    "name": "Industry Solution 97",
+    "description": "High-frequency logic and security solution for industry vertical 97",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0097-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0097-package.zip"
+    }
+  },
+  {
+    "id": 98,
+    "sku": "PWS-0098",
+    "name": "Industry Solution 98",
+    "description": "High-frequency logic and security solution for industry vertical 98",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0098-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0098-package.zip"
+    }
+  },
+  {
+    "id": 99,
+    "sku": "PWS-0099",
+    "name": "Industry Solution 99",
+    "description": "High-frequency logic and security solution for industry vertical 99",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0099-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0099-package.zip"
+    }
+  },
+  {
+    "id": 100,
+    "sku": "PWS-0100",
+    "name": "Industry Solution 100",
+    "description": "High-frequency logic and security solution for industry vertical 100",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0100-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0100-package.zip"
+    }
+  },
+  {
+    "id": 101,
+    "sku": "PWS-0101",
+    "name": "Industry Solution 101",
+    "description": "High-frequency logic and security solution for industry vertical 101",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0101-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0101-package.zip"
+    }
+  },
+  {
+    "id": 102,
+    "sku": "PWS-0102",
+    "name": "Industry Solution 102",
+    "description": "High-frequency logic and security solution for industry vertical 102",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0102-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0102-package.zip"
+    }
+  },
+  {
+    "id": 103,
+    "sku": "PWS-0103",
+    "name": "Industry Solution 103",
+    "description": "High-frequency logic and security solution for industry vertical 103",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0103-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0103-package.zip"
+    }
+  },
+  {
+    "id": 104,
+    "sku": "PWS-0104",
+    "name": "Industry Solution 104",
+    "description": "High-frequency logic and security solution for industry vertical 104",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0104-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0104-package.zip"
+    }
+  },
+  {
+    "id": 105,
+    "sku": "PWS-0105",
+    "name": "Industry Solution 105",
+    "description": "High-frequency logic and security solution for industry vertical 105",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0105-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0105-package.zip"
+    }
+  },
+  {
+    "id": 106,
+    "sku": "PWS-0106",
+    "name": "Industry Solution 106",
+    "description": "High-frequency logic and security solution for industry vertical 106",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0106-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0106-package.zip"
+    }
+  },
+  {
+    "id": 107,
+    "sku": "PWS-0107",
+    "name": "Industry Solution 107",
+    "description": "High-frequency logic and security solution for industry vertical 107",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0107-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0107-package.zip"
+    }
+  },
+  {
+    "id": 108,
+    "sku": "PWS-0108",
+    "name": "Industry Solution 108",
+    "description": "High-frequency logic and security solution for industry vertical 108",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0108-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0108-package.zip"
+    }
+  },
+  {
+    "id": 109,
+    "sku": "PWS-0109",
+    "name": "Industry Solution 109",
+    "description": "High-frequency logic and security solution for industry vertical 109",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0109-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0109-package.zip"
+    }
+  },
+  {
+    "id": 110,
+    "sku": "PWS-0110",
+    "name": "Industry Solution 110",
+    "description": "High-frequency logic and security solution for industry vertical 110",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0110-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0110-package.zip"
+    }
+  },
+  {
+    "id": 111,
+    "sku": "PWS-0111",
+    "name": "Industry Solution 111",
+    "description": "High-frequency logic and security solution for industry vertical 111",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0111-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0111-package.zip"
+    }
+  },
+  {
+    "id": 112,
+    "sku": "PWS-0112",
+    "name": "Industry Solution 112",
+    "description": "High-frequency logic and security solution for industry vertical 112",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0112-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0112-package.zip"
+    }
+  },
+  {
+    "id": 113,
+    "sku": "PWS-0113",
+    "name": "Industry Solution 113",
+    "description": "High-frequency logic and security solution for industry vertical 113",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0113-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0113-package.zip"
+    }
+  },
+  {
+    "id": 114,
+    "sku": "PWS-0114",
+    "name": "Industry Solution 114",
+    "description": "High-frequency logic and security solution for industry vertical 114",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0114-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0114-package.zip"
+    }
+  },
+  {
+    "id": 115,
+    "sku": "PWS-0115",
+    "name": "Industry Solution 115",
+    "description": "High-frequency logic and security solution for industry vertical 115",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0115-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0115-package.zip"
+    }
+  },
+  {
+    "id": 116,
+    "sku": "PWS-0116",
+    "name": "Industry Solution 116",
+    "description": "High-frequency logic and security solution for industry vertical 116",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0116-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0116-package.zip"
+    }
+  },
+  {
+    "id": 117,
+    "sku": "PWS-0117",
+    "name": "Industry Solution 117",
+    "description": "High-frequency logic and security solution for industry vertical 117",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0117-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0117-package.zip"
+    }
+  },
+  {
+    "id": 118,
+    "sku": "PWS-0118",
+    "name": "Industry Solution 118",
+    "description": "High-frequency logic and security solution for industry vertical 118",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0118-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0118-package.zip"
+    }
+  },
+  {
+    "id": 119,
+    "sku": "PWS-0119",
+    "name": "Industry Solution 119",
+    "description": "High-frequency logic and security solution for industry vertical 119",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0119-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0119-package.zip"
+    }
+  },
+  {
+    "id": 120,
+    "sku": "PWS-0120",
+    "name": "Industry Solution 120",
+    "description": "High-frequency logic and security solution for industry vertical 120",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0120-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0120-package.zip"
+    }
+  },
+  {
+    "id": 121,
+    "sku": "PWS-0121",
+    "name": "Industry Solution 121",
+    "description": "High-frequency logic and security solution for industry vertical 121",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0121-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0121-package.zip"
+    }
+  },
+  {
+    "id": 122,
+    "sku": "PWS-0122",
+    "name": "Industry Solution 122",
+    "description": "High-frequency logic and security solution for industry vertical 122",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0122-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0122-package.zip"
+    }
+  },
+  {
+    "id": 123,
+    "sku": "PWS-0123",
+    "name": "Industry Solution 123",
+    "description": "High-frequency logic and security solution for industry vertical 123",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0123-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0123-package.zip"
+    }
+  },
+  {
+    "id": 124,
+    "sku": "PWS-0124",
+    "name": "Industry Solution 124",
+    "description": "High-frequency logic and security solution for industry vertical 124",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0124-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0124-package.zip"
+    }
+  },
+  {
+    "id": 125,
+    "sku": "PWS-0125",
+    "name": "Industry Solution 125",
+    "description": "High-frequency logic and security solution for industry vertical 125",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0125-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0125-package.zip"
+    }
+  },
+  {
+    "id": 126,
+    "sku": "PWS-0126",
+    "name": "Industry Solution 126",
+    "description": "High-frequency logic and security solution for industry vertical 126",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0126-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0126-package.zip"
+    }
+  },
+  {
+    "id": 127,
+    "sku": "PWS-0127",
+    "name": "Industry Solution 127",
+    "description": "High-frequency logic and security solution for industry vertical 127",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0127-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0127-package.zip"
+    }
+  },
+  {
+    "id": 128,
+    "sku": "PWS-0128",
+    "name": "Industry Solution 128",
+    "description": "High-frequency logic and security solution for industry vertical 128",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0128-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0128-package.zip"
+    }
+  },
+  {
+    "id": 129,
+    "sku": "PWS-0129",
+    "name": "Industry Solution 129",
+    "description": "High-frequency logic and security solution for industry vertical 129",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0129-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0129-package.zip"
+    }
+  },
+  {
+    "id": 130,
+    "sku": "PWS-0130",
+    "name": "Industry Solution 130",
+    "description": "High-frequency logic and security solution for industry vertical 130",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0130-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0130-package.zip"
+    }
+  },
+  {
+    "id": 131,
+    "sku": "PWS-0131",
+    "name": "Industry Solution 131",
+    "description": "High-frequency logic and security solution for industry vertical 131",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0131-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0131-package.zip"
+    }
+  },
+  {
+    "id": 132,
+    "sku": "PWS-0132",
+    "name": "Industry Solution 132",
+    "description": "High-frequency logic and security solution for industry vertical 132",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0132-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0132-package.zip"
+    }
+  },
+  {
+    "id": 133,
+    "sku": "PWS-0133",
+    "name": "Industry Solution 133",
+    "description": "High-frequency logic and security solution for industry vertical 133",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0133-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0133-package.zip"
+    }
+  },
+  {
+    "id": 134,
+    "sku": "PWS-0134",
+    "name": "Industry Solution 134",
+    "description": "High-frequency logic and security solution for industry vertical 134",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0134-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0134-package.zip"
+    }
+  },
+  {
+    "id": 135,
+    "sku": "PWS-0135",
+    "name": "Industry Solution 135",
+    "description": "High-frequency logic and security solution for industry vertical 135",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0135-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0135-package.zip"
+    }
+  },
+  {
+    "id": 136,
+    "sku": "PWS-0136",
+    "name": "Industry Solution 136",
+    "description": "High-frequency logic and security solution for industry vertical 136",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0136-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0136-package.zip"
+    }
+  },
+  {
+    "id": 137,
+    "sku": "PWS-0137",
+    "name": "Industry Solution 137",
+    "description": "High-frequency logic and security solution for industry vertical 137",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0137-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0137-package.zip"
+    }
+  },
+  {
+    "id": 138,
+    "sku": "PWS-0138",
+    "name": "Industry Solution 138",
+    "description": "High-frequency logic and security solution for industry vertical 138",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0138-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0138-package.zip"
+    }
+  },
+  {
+    "id": 139,
+    "sku": "PWS-0139",
+    "name": "Industry Solution 139",
+    "description": "High-frequency logic and security solution for industry vertical 139",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0139-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0139-package.zip"
+    }
+  },
+  {
+    "id": 140,
+    "sku": "PWS-0140",
+    "name": "Industry Solution 140",
+    "description": "High-frequency logic and security solution for industry vertical 140",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0140-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0140-package.zip"
+    }
+  },
+  {
+    "id": 141,
+    "sku": "PWS-0141",
+    "name": "Industry Solution 141",
+    "description": "High-frequency logic and security solution for industry vertical 141",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0141-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0141-package.zip"
+    }
+  },
+  {
+    "id": 142,
+    "sku": "PWS-0142",
+    "name": "Industry Solution 142",
+    "description": "High-frequency logic and security solution for industry vertical 142",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0142-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0142-package.zip"
+    }
+  },
+  {
+    "id": 143,
+    "sku": "PWS-0143",
+    "name": "Industry Solution 143",
+    "description": "High-frequency logic and security solution for industry vertical 143",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0143-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0143-package.zip"
+    }
+  },
+  {
+    "id": 144,
+    "sku": "PWS-0144",
+    "name": "Industry Solution 144",
+    "description": "High-frequency logic and security solution for industry vertical 144",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0144-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0144-package.zip"
+    }
+  },
+  {
+    "id": 145,
+    "sku": "PWS-0145",
+    "name": "Industry Solution 145",
+    "description": "High-frequency logic and security solution for industry vertical 145",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0145-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0145-package.zip"
+    }
+  },
+  {
+    "id": 146,
+    "sku": "PWS-0146",
+    "name": "Industry Solution 146",
+    "description": "High-frequency logic and security solution for industry vertical 146",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0146-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0146-package.zip"
+    }
+  },
+  {
+    "id": 147,
+    "sku": "PWS-0147",
+    "name": "Industry Solution 147",
+    "description": "High-frequency logic and security solution for industry vertical 147",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0147-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0147-package.zip"
+    }
+  },
+  {
+    "id": 148,
+    "sku": "PWS-0148",
+    "name": "Industry Solution 148",
+    "description": "High-frequency logic and security solution for industry vertical 148",
+    "price_band": "L",
+    "price_usd": 49,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Basic License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0148-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0148-package.zip"
+    }
+  },
+  {
+    "id": 149,
+    "sku": "PWS-0149",
+    "name": "Industry Solution 149",
+    "description": "High-frequency logic and security solution for industry vertical 149",
+    "price_band": "M",
+    "price_usd": 149,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Standard License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0149-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0149-package.zip"
+    }
+  },
+  {
+    "id": 150,
+    "sku": "PWS-0150",
+    "name": "Industry Solution 150",
+    "description": "High-frequency logic and security solution for industry vertical 150",
+    "price_band": "H",
+    "price_usd": 499,
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": [
+        "Core infrastructure components",
+        "Security protocols and encryption",
+        "Audit logging system",
+        "Identity management module",
+        "Documentation and setup guides"
+      ],
+      "license_summary": "Sovereign Pro License - Full commercial use with attribution",
+      "license_doc": "/assets/licenses/PWS-0150-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0150-package.zip"
+    }
+  },
+  {
+    "id": 151,
+    "sku": "PWS-0151",
+    "name": "Elite Solution 151",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0151-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0151-package.zip"
+    }
+  },
+  {
+    "id": 152,
+    "sku": "PWS-0152",
+    "name": "Elite Solution 152",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0152-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0152-package.zip"
+    }
+  },
+  {
+    "id": 153,
+    "sku": "PWS-0153",
+    "name": "Elite Solution 153",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0153-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0153-package.zip"
+    }
+  },
+  {
+    "id": 154,
+    "sku": "PWS-0154",
+    "name": "Elite Solution 154",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0154-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0154-package.zip"
+    }
+  },
+  {
+    "id": 155,
+    "sku": "PWS-0155",
+    "name": "Elite Solution 155",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0155-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0155-package.zip"
+    }
+  },
+  {
+    "id": 156,
+    "sku": "PWS-0156",
+    "name": "Elite Solution 156",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0156-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0156-package.zip"
+    }
+  },
+  {
+    "id": 157,
+    "sku": "PWS-0157",
+    "name": "Elite Solution 157",
+    "description": "Exclusive invitation-only premium solution for critical infrastructure",
+    "price_band": "Elite",
+    "price_usd": null,
+    "price_note": "Invite Only",
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": [
+        "Complete enterprise infrastructure suite",
+        "Advanced security and threat detection",
+        "Priority support and dedicated engineering",
+        "Custom integration services",
+        "Exclusive audit and compliance tools",
+        "White-glove deployment assistance"
+      ],
+      "license_summary": "Sovereign Elite License - Enterprise commercial use with priority support",
+      "license_doc": "/assets/licenses/PWS-0157-license.pdf",
+      "deliverable": "/assets/deliverables/PWS-0157-package.zip"
+    }
+  }
+]

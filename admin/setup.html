@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup - Phoenix Wolf Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --midnight: #0d0221;
+            --deep-purple: #1a0b2e;
+            --lavender: #bf94ff;
+            --frost: #87cefa;
+            --glass: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: radial-gradient(circle at center, #1a0b2e 0%, var(--midnight) 100%);
+            color: #f0f0f0;
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .setup-container {
+            background: var(--glass);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(191, 148, 255, 0.2);
+            border-radius: 16px;
+            padding: 3rem;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 0.3rem;
+            text-transform: uppercase;
+            background: linear-gradient(to right, var(--lavender), var(--frost));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .admin-badge {
+            font-size: 0.7rem;
+            color: var(--frost);
+            letter-spacing: 0.15rem;
+            opacity: 0.7;
+            text-transform: uppercase;
+        }
+
+        .warning-box {
+            background: rgba(255, 107, 107, 0.1);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: #ffaaaa;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .warning-box strong {
+            color: #ff6b6b;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--lavender);
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+        }
+
+        .form-help {
+            font-size: 0.8rem;
+            color: #aaa;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-input, .form-textarea {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(191, 148, 255, 0.3);
+            border-radius: 8px;
+            padding: 0.8rem;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-input:focus, .form-textarea:focus {
+            outline: none;
+            border-color: var(--lavender);
+            box-shadow: 0 0 15px rgba(191, 148, 255, 0.2);
+        }
+
+        .form-textarea {
+            min-height: 150px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+        }
+
+        .setup-token-group {
+            background: rgba(135, 206, 250, 0.05);
+            border: 1px solid rgba(135, 206, 250, 0.2);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: var(--lavender);
+            border: none;
+            color: var(--midnight);
+            padding: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .submit-btn:hover {
+            box-shadow: 0 0 25px rgba(191, 148, 255, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .status-message {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+
+        .status-message.success {
+            background: rgba(46, 213, 115, 0.1);
+            border: 1px solid rgba(46, 213, 115, 0.3);
+            color: #2ed573;
+        }
+
+        .status-message.error {
+            background: rgba(255, 107, 107, 0.1);
+            border: 1px solid rgba(255, 107, 107, 0.3);
+            color: #ff6b6b;
+        }
+
+        .footer-note {
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.7rem;
+            color: rgba(135, 206, 250, 0.5);
+            letter-spacing: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="setup-container">
+        <div class="header">
+            <div class="logo">Phoenix Wolf</div>
+            <div class="admin-badge">Secure Setup - Admin: Keli</div>
+        </div>
+
+        <div class="warning-box">
+            <strong>⚠️ ONE-TIME SETUP</strong>
+            This form can only be used once to initialize system secrets. After successful submission, this page will be locked and cannot be reused. Store your setup token securely.
+        </div>
+
+        <form id="setupForm">
+            <div class="setup-token-group">
+                <div class="form-group">
+                    <label class="form-label">Setup Token</label>
+                    <div class="form-help">The secure token provided during system initialization</div>
+                    <input type="password" class="form-input" id="setupToken" required 
+                           placeholder="Enter your setup token">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Secrets Configuration (JSON)</label>
+                <div class="form-help">Paste your secrets JSON configuration. Must include required keys.</div>
+                <textarea class="form-textarea" id="secretsJson" required 
+                          placeholder='{\n  "STRIPE_SECRET_KEY": "sk_...",\n  "PROTONMAIL_API_KEY": "...",\n  "YOUTUBE_API_KEY": "...",\n  "OAUTH_CLIENT_ID": "...",\n  "OAUTH_CLIENT_SECRET": "..."\n}'></textarea>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Admin Email</label>
+                <div class="form-help">Email for system notifications and alerts</div>
+                <input type="email" class="form-input" id="adminEmail" required 
+                       placeholder="keli@phoenixwolf.systems">
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">
+                Initialize System Secrets
+            </button>
+
+            <div id="statusMessage" class="status-message"></div>
+        </form>
+
+        <div class="footer-note">
+            Phoenix Wolf Systems // Sovereign OS Setup // Secure Channel
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('setupForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const submitBtn = document.getElementById('submitBtn');
+            const statusMessage = document.getElementById('statusMessage');
+            
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Submitting...';
+            statusMessage.style.display = 'none';
+
+            const setupToken = document.getElementById('setupToken').value;
+            const secretsJson = document.getElementById('secretsJson').value;
+            const adminEmail = document.getElementById('adminEmail').value;
+
+            // Validate JSON
+            let secrets;
+            try {
+                secrets = JSON.parse(secretsJson);
+            } catch (error) {
+                showError('Invalid JSON format. Please check your secrets configuration.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Initialize System Secrets';
+                return;
+            }
+
+            // Add admin info to secrets
+            secrets.ADMIN_EMAIL = adminEmail;
+            secrets.ADMIN_HANDLE = 'Keli';
+            secrets.SETUP_TIMESTAMP = new Date().toISOString();
+
+            try {
+                const response = await fetch('/api/store-secrets', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'x-setup-token': setupToken
+                    },
+                    body: JSON.stringify(secrets)
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    showSuccess('Secrets stored successfully! Setup complete. You will be redirected...');
+                    
+                    // Lock the form
+                    document.getElementById('setupForm').reset();
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Setup Complete';
+                    
+                    // Redirect to admin console
+                    setTimeout(() => {
+                        window.location.href = '/admin/console.html';
+                    }, 3000);
+                } else {
+                    showError(result.error || 'Failed to store secrets. Please check your setup token.');
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Initialize System Secrets';
+                }
+            } catch (error) {
+                showError('Network error. Please check your connection and try again.');
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Initialize System Secrets';
+            }
+        });
+
+        function showSuccess(message) {
+            const statusMessage = document.getElementById('statusMessage');
+            statusMessage.className = 'status-message success';
+            statusMessage.textContent = message;
+            statusMessage.style.display = 'block';
+        }
+
+        function showError(message) {
+            const statusMessage = document.getElementById('statusMessage');
+            statusMessage.className = 'status-message error';
+            statusMessage.textContent = message;
+            statusMessage.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
