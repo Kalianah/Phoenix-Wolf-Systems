@@ -1,0 +1,33 @@
+name: Deploy Sovereign OS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: |
+          npm ci || true
+          npm install -g @cloudflare/wrangler
+
+      - name: Publish Cloudflare Worker
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+        run: |
+          wrangler publish workers/worker.js --name phoenix-wolf-systems-worker || wrangler publish workers/worker.js
+
+      - name: Done
+        run: echo "Deploy complete. Worker published."
+
+# Secrets required: CF_API_TOKEN, CF_ACCOUNT_ID, CF_KV_SECRETS_ID, CF_KV_SESSIONS_ID, CF_KV_AUDIT_ID, CF_SETUP_TOKEN
