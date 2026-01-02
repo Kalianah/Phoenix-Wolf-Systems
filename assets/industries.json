@@ -1,0 +1,3153 @@
+[
+  {
+    "id": 1,
+    "name": "IND-001 Logistics Optimization",
+    "slug": "ind-001-logistics-optimization",
+    "description": "Prebuilt Logistics Optimization package tailored to streamline supply chain and delivery operations.",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0001",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0001-license.html"
+    },
+    "deliverable": {
+      "type": "archive",
+      "path": "/assets/deliverables/PWS-0001.zip",
+      "proton_link": "https://drive.proton.me/urls/EN78NXE07C#6pDSjTuFFuJh"
+    }
+  },
+  {
+    "id": 2,
+    "name": "IND-002 Industry 002",
+    "slug": "ind-002",
+    "description": "Prebuilt package tailored for Industry 002",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0002",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0002-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0002.zip" }
+  },
+  {
+    "id": 3,
+    "name": "IND-003 Industry 003",
+    "slug": "ind-003",
+    "description": "Prebuilt package tailored for Industry 003",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0003",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0003-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0003.zip" }
+  },
+  {
+    "id": 4,
+    "name": "IND-004 Industry 004",
+    "slug": "ind-004",
+    "description": "Prebuilt package tailored for Industry 004",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0004",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0004-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0004.zip" }
+  },
+  {
+    "id": 5,
+    "name": "IND-005 Industry 005",
+    "slug": "ind-005",
+    "description": "Prebuilt package tailored for Industry 005",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0005",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0005-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0005.zip" }
+  },
+  {
+    "id": 6,
+    "name": "IND-006 Industry 006",
+    "slug": "ind-006",
+    "description": "Prebuilt package tailored for Industry 006",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0006",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0006-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0006.zip" }
+  },
+  {
+    "id": 7,
+    "name": "IND-007 Industry 007",
+    "slug": "ind-007",
+    "description": "Prebuilt package tailored for Industry 007",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0007",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0007-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0007.zip" }
+  },
+  {
+    "id": 8,
+    "name": "IND-008 Industry 008",
+    "slug": "ind-008",
+    "description": "Prebuilt package tailored for Industry 008",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0008",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0008-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0008.zip" }
+  },
+  {
+    "id": 9,
+    "name": "IND-009 Industry 009",
+    "slug": "ind-009",
+    "description": "Prebuilt package tailored for Industry 009",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0009",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0009-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0009.zip" }
+  },
+  {
+    "id": 10,
+    "name": "IND-010 Industry 010",
+    "slug": "ind-010",
+    "description": "Prebuilt package tailored for Industry 010",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0010",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0010-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0010.zip" }
+  },
+  {
+    "id": 11,
+    "name": "IND-011 Industry 011",
+    "slug": "ind-011",
+    "description": "Prebuilt package tailored for Industry 011",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0011",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0011-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0011.zip" }
+  },
+  {
+    "id": 12,
+    "name": "IND-012 Industry 012",
+    "slug": "ind-012",
+    "description": "Prebuilt package tailored for Industry 012",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0012",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0012-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0012.zip" }
+  },
+  {
+    "id": 13,
+    "name": "IND-013 Industry 013",
+    "slug": "ind-013",
+    "description": "Prebuilt package tailored for Industry 013",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0013",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0013-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0013.zip" }
+  },
+  {
+    "id": 14,
+    "name": "IND-014 Industry 014",
+    "slug": "ind-014",
+    "description": "Prebuilt package tailored for Industry 014",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0014",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0014-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0014.zip" }
+  },
+  {
+    "id": 15,
+    "name": "IND-015 Industry 015",
+    "slug": "ind-015",
+    "description": "Prebuilt package tailored for Industry 015",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0015",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0015-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0015.zip" }
+  },
+  {
+    "id": 16,
+    "name": "IND-016 Industry 016",
+    "slug": "ind-016",
+    "description": "Prebuilt package tailored for Industry 016",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0016",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0016-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0016.zip" }
+  },
+  {
+    "id": 17,
+    "name": "IND-017 Industry 017",
+    "slug": "ind-017",
+    "description": "Prebuilt package tailored for Industry 017",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0017",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0017-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0017.zip" }
+  },
+  {
+    "id": 18,
+    "name": "IND-018 Industry 018",
+    "slug": "ind-018",
+    "description": "Prebuilt package tailored for Industry 018",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0018",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0018-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0018.zip" }
+  },
+  {
+    "id": 19,
+    "name": "IND-019 Industry 019",
+    "slug": "ind-019",
+    "description": "Prebuilt package tailored for Industry 019",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0019",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0019-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0019.zip" }
+  },
+  {
+    "id": 20,
+    "name": "IND-020 Industry 020",
+    "slug": "ind-020",
+    "description": "Prebuilt package tailored for Industry 020",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0020",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0020-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0020.zip" }
+  },
+  {
+    "id": 21,
+    "name": "IND-021 Industry 021",
+    "slug": "ind-021",
+    "description": "Prebuilt package tailored for Industry 021",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0021",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0021-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0021.zip" }
+  },
+  {
+    "id": 22,
+    "name": "IND-022 Industry 022",
+    "slug": "ind-022",
+    "description": "Prebuilt package tailored for Industry 022",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0022",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0022-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0022.zip" }
+  },
+  {
+    "id": 23,
+    "name": "IND-023 Industry 023",
+    "slug": "ind-023",
+    "description": "Prebuilt package tailored for Industry 023",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0023",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0023-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0023.zip" }
+  },
+  {
+    "id": 24,
+    "name": "IND-024 Industry 024",
+    "slug": "ind-024",
+    "description": "Prebuilt package tailored for Industry 024",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0024",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0024-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0024.zip" }
+  },
+  {
+    "id": 25,
+    "name": "IND-025 Industry 025",
+    "slug": "ind-025",
+    "description": "Prebuilt package tailored for Industry 025",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0025",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0025-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0025.zip" }
+  },
+  {
+    "id": 26,
+    "name": "IND-026 Industry 026",
+    "slug": "ind-026",
+    "description": "Prebuilt package tailored for Industry 026",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0026",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0026-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0026.zip" }
+  },
+  {
+    "id": 27,
+    "name": "IND-027 Industry 027",
+    "slug": "ind-027",
+    "description": "Prebuilt package tailored for Industry 027",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0027",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0027-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0027.zip" }
+  },
+  {
+    "id": 28,
+    "name": "IND-028 Industry 028",
+    "slug": "ind-028",
+    "description": "Prebuilt package tailored for Industry 028",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0028",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0028-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0028.zip" }
+  },
+  {
+    "id": 29,
+    "name": "IND-029 Industry 029",
+    "slug": "ind-029",
+    "description": "Prebuilt package tailored for Industry 029",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0029",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0029-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0029.zip" }
+  },
+  {
+    "id": 30,
+    "name": "IND-030 Industry 030",
+    "slug": "ind-030",
+    "description": "Prebuilt package tailored for Industry 030",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0030",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0030-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0030.zip" }
+  },
+  {
+    "id": 31,
+    "name": "IND-031 Industry 031",
+    "slug": "ind-031",
+    "description": "Prebuilt package tailored for Industry 031",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0031",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0031-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0031.zip" }
+  },
+  {
+    "id": 32,
+    "name": "IND-032 Industry 032",
+    "slug": "ind-032",
+    "description": "Prebuilt package tailored for Industry 032",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0032",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0032-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0032.zip" }
+  },
+  {
+    "id": 33,
+    "name": "IND-033 Industry 033",
+    "slug": "ind-033",
+    "description": "Prebuilt package tailored for Industry 033",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0033",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0033-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0033.zip" }
+  },
+  {
+    "id": 34,
+    "name": "IND-034 Industry 034",
+    "slug": "ind-034",
+    "description": "Prebuilt package tailored for Industry 034",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0034",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0034-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0034.zip" }
+  },
+  {
+    "id": 35,
+    "name": "IND-035 Industry 035",
+    "slug": "ind-035",
+    "description": "Prebuilt package tailored for Industry 035",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0035",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0035-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0035.zip" }
+  },
+  {
+    "id": 36,
+    "name": "IND-036 Industry 036",
+    "slug": "ind-036",
+    "description": "Prebuilt package tailored for Industry 036",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0036",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0036-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0036.zip" }
+  },
+  {
+    "id": 37,
+    "name": "IND-037 Industry 037",
+    "slug": "ind-037",
+    "description": "Prebuilt package tailored for Industry 037",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0037",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0037-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0037.zip" }
+  },
+  {
+    "id": 38,
+    "name": "IND-038 Industry 038",
+    "slug": "ind-038",
+    "description": "Prebuilt package tailored for Industry 038",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0038",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0038-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0038.zip" }
+  },
+  {
+    "id": 39,
+    "name": "IND-039 Industry 039",
+    "slug": "ind-039",
+    "description": "Prebuilt package tailored for Industry 039",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0039",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0039-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0039.zip" }
+  },
+  {
+    "id": 40,
+    "name": "IND-040 Industry 040",
+    "slug": "ind-040",
+    "description": "Prebuilt package tailored for Industry 040",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0040",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0040-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0040.zip" }
+  },
+  {
+    "id": 41,
+    "name": "IND-041 Industry 041",
+    "slug": "ind-041",
+    "description": "Prebuilt package tailored for Industry 041",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0041",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0041-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0041.zip" }
+  },
+  {
+    "id": 42,
+    "name": "IND-042 Industry 042",
+    "slug": "ind-042",
+    "description": "Prebuilt package tailored for Industry 042",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0042",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0042-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0042.zip" }
+  },
+  {
+    "id": 43,
+    "name": "IND-043 Industry 043",
+    "slug": "ind-043",
+    "description": "Prebuilt package tailored for Industry 043",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0043",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0043-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0043.zip" }
+  },
+  {
+    "id": 44,
+    "name": "IND-044 Industry 044",
+    "slug": "ind-044",
+    "description": "Prebuilt package tailored for Industry 044",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0044",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0044-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0044.zip" }
+  },
+  {
+    "id": 45,
+    "name": "IND-045 Industry 045",
+    "slug": "ind-045",
+    "description": "Prebuilt package tailored for Industry 045",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0045",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0045-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0045.zip" }
+  },
+  {
+    "id": 46,
+    "name": "IND-046 Industry 046",
+    "slug": "ind-046",
+    "description": "Prebuilt package tailored for Industry 046",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0046",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0046-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0046.zip" }
+  },
+  {
+    "id": 47,
+    "name": "IND-047 Industry 047",
+    "slug": "ind-047",
+    "description": "Prebuilt package tailored for Industry 047",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0047",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0047-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0047.zip" }
+  },
+  {
+    "id": 48,
+    "name": "IND-048 Industry 048",
+    "slug": "ind-048",
+    "description": "Prebuilt package tailored for Industry 048",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0048",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0048-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0048.zip" }
+  },
+  {
+    "id": 49,
+    "name": "IND-049 Industry 049",
+    "slug": "ind-049",
+    "description": "Prebuilt package tailored for Industry 049",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0049",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0049-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0049.zip" }
+  },
+  {
+    "id": 50,
+    "name": "IND-050 Industry 050",
+    "slug": "ind-050",
+    "description": "Prebuilt package tailored for Industry 050",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0050",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0050-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0050.zip" }
+  },
+  {
+    "id": 51,
+    "name": "IND-051 Industry 051",
+    "slug": "ind-051",
+    "description": "Prebuilt package tailored for Industry 051",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0051",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0051-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0051.zip" }
+  },
+  {
+    "id": 52,
+    "name": "IND-052 Industry 052",
+    "slug": "ind-052",
+    "description": "Prebuilt package tailored for Industry 052",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0052",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0052-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0052.zip" }
+  },
+  {
+    "id": 53,
+    "name": "IND-053 Industry 053",
+    "slug": "ind-053",
+    "description": "Prebuilt package tailored for Industry 053",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0053",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0053-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0053.zip" }
+  },
+  {
+    "id": 54,
+    "name": "IND-054 Industry 054",
+    "slug": "ind-054",
+    "description": "Prebuilt package tailored for Industry 054",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0054",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0054-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0054.zip" }
+  },
+  {
+    "id": 55,
+    "name": "IND-055 Industry 055",
+    "slug": "ind-055",
+    "description": "Prebuilt package tailored for Industry 055",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0055",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0055-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0055.zip" }
+  },
+  {
+    "id": 56,
+    "name": "IND-056 Industry 056",
+    "slug": "ind-056",
+    "description": "Prebuilt package tailored for Industry 056",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0056",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0056-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0056.zip" }
+  },
+  {
+    "id": 57,
+    "name": "IND-057 Industry 057",
+    "slug": "ind-057",
+    "description": "Prebuilt package tailored for Industry 057",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0057",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0057-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0057.zip" }
+  },
+  {
+    "id": 58,
+    "name": "IND-058 Industry 058",
+    "slug": "ind-058",
+    "description": "Prebuilt package tailored for Industry 058",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0058",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0058-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0058.zip" }
+  },
+  {
+    "id": 59,
+    "name": "IND-059 Industry 059",
+    "slug": "ind-059",
+    "description": "Prebuilt package tailored for Industry 059",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0059",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0059-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0059.zip" }
+  },
+  {
+    "id": 60,
+    "name": "IND-060 Industry 060",
+    "slug": "ind-060",
+    "description": "Prebuilt package tailored for Industry 060",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0060",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0060-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0060.zip" }
+  },
+  {
+    "id": 61,
+    "name": "IND-061 Industry 061",
+    "slug": "ind-061",
+    "description": "Prebuilt package tailored for Industry 061",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0061",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0061-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0061.zip" }
+  },
+  {
+    "id": 62,
+    "name": "IND-062 Industry 062",
+    "slug": "ind-062",
+    "description": "Prebuilt package tailored for Industry 062",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0062",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0062-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0062.zip" }
+  },
+  {
+    "id": 63,
+    "name": "IND-063 Industry 063",
+    "slug": "ind-063",
+    "description": "Prebuilt package tailored for Industry 063",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0063",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0063-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0063.zip" }
+  },
+  {
+    "id": 64,
+    "name": "IND-064 Industry 064",
+    "slug": "ind-064",
+    "description": "Prebuilt package tailored for Industry 064",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0064",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0064-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0064.zip" }
+  },
+  {
+    "id": 65,
+    "name": "IND-065 Industry 065",
+    "slug": "ind-065",
+    "description": "Prebuilt package tailored for Industry 065",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0065",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0065-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0065.zip" }
+  },
+  {
+    "id": 66,
+    "name": "IND-066 Industry 066",
+    "slug": "ind-066",
+    "description": "Prebuilt package tailored for Industry 066",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0066",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0066-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0066.zip" }
+  },
+  {
+    "id": 67,
+    "name": "IND-067 Industry 067",
+    "slug": "ind-067",
+    "description": "Prebuilt package tailored for Industry 067",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0067",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0067-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0067.zip" }
+  },
+  {
+    "id": 68,
+    "name": "IND-068 Industry 068",
+    "slug": "ind-068",
+    "description": "Prebuilt package tailored for Industry 068",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0068",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0068-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0068.zip" }
+  },
+  {
+    "id": 69,
+    "name": "IND-069 Industry 069",
+    "slug": "ind-069",
+    "description": "Prebuilt package tailored for Industry 069",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0069",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0069-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0069.zip" }
+  },
+  {
+    "id": 70,
+    "name": "IND-070 Industry 070",
+    "slug": "ind-070",
+    "description": "Prebuilt package tailored for Industry 070",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0070",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0070-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0070.zip" }
+  },
+  {
+    "id": 71,
+    "name": "IND-071 Industry 071",
+    "slug": "ind-071",
+    "description": "Prebuilt package tailored for Industry 071",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0071",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0071-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0071.zip" }
+  },
+  {
+    "id": 72,
+    "name": "IND-072 Industry 072",
+    "slug": "ind-072",
+    "description": "Prebuilt package tailored for Industry 072",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0072",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0072-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0072.zip" }
+  },
+  {
+    "id": 73,
+    "name": "IND-073 Industry 073",
+    "slug": "ind-073",
+    "description": "Prebuilt package tailored for Industry 073",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0073",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0073-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0073.zip" }
+  },
+  {
+    "id": 74,
+    "name": "IND-074 Industry 074",
+    "slug": "ind-074",
+    "description": "Prebuilt package tailored for Industry 074",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0074",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0074-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0074.zip" }
+  },
+  {
+    "id": 75,
+    "name": "IND-075 Industry 075",
+    "slug": "ind-075",
+    "description": "Prebuilt package tailored for Industry 075",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0075",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0075-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0075.zip" }
+  },
+  {
+    "id": 76,
+    "name": "IND-076 Industry 076",
+    "slug": "ind-076",
+    "description": "Prebuilt package tailored for Industry 076",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0076",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0076-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0076.zip" }
+  },
+  {
+    "id": 77,
+    "name": "IND-077 Industry 077",
+    "slug": "ind-077",
+    "description": "Prebuilt package tailored for Industry 077",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0077",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0077-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0077.zip" }
+  },
+  {
+    "id": 78,
+    "name": "IND-078 Industry 078",
+    "slug": "ind-078",
+    "description": "Prebuilt package tailored for Industry 078",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0078",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0078-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0078.zip" }
+  },
+  {
+    "id": 79,
+    "name": "IND-079 Industry 079",
+    "slug": "ind-079",
+    "description": "Prebuilt package tailored for Industry 079",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0079",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0079-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0079.zip" }
+  },
+  {
+    "id": 80,
+    "name": "IND-080 Industry 080",
+    "slug": "ind-080",
+    "description": "Prebuilt package tailored for Industry 080",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0080",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0080-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0080.zip" }
+  },
+  {
+    "id": 81,
+    "name": "IND-081 Industry 081",
+    "slug": "ind-081",
+    "description": "Prebuilt package tailored for Industry 081",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0081",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0081-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0081.zip" }
+  },
+  {
+    "id": 82,
+    "name": "IND-082 Industry 082",
+    "slug": "ind-082",
+    "description": "Prebuilt package tailored for Industry 082",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0082",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0082-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0082.zip" }
+  },
+  {
+    "id": 83,
+    "name": "IND-083 Industry 083",
+    "slug": "ind-083",
+    "description": "Prebuilt package tailored for Industry 083",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0083",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0083-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0083.zip" }
+  },
+  {
+    "id": 84,
+    "name": "IND-084 Industry 084",
+    "slug": "ind-084",
+    "description": "Prebuilt package tailored for Industry 084",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0084",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0084-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0084.zip" }
+  },
+  {
+    "id": 85,
+    "name": "IND-085 Industry 085",
+    "slug": "ind-085",
+    "description": "Prebuilt package tailored for Industry 085",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0085",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0085-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0085.zip" }
+  },
+  {
+    "id": 86,
+    "name": "IND-086 Industry 086",
+    "slug": "ind-086",
+    "description": "Prebuilt package tailored for Industry 086",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0086",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0086-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0086.zip" }
+  },
+  {
+    "id": 87,
+    "name": "IND-087 Industry 087",
+    "slug": "ind-087",
+    "description": "Prebuilt package tailored for Industry 087",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0087",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0087-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0087.zip" }
+  },
+  {
+    "id": 88,
+    "name": "IND-088 Industry 088",
+    "slug": "ind-088",
+    "description": "Prebuilt package tailored for Industry 088",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0088",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0088-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0088.zip" }
+  },
+  {
+    "id": 89,
+    "name": "IND-089 Industry 089",
+    "slug": "ind-089",
+    "description": "Prebuilt package tailored for Industry 089",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0089",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0089-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0089.zip" }
+  },
+  {
+    "id": 90,
+    "name": "IND-090 Industry 090",
+    "slug": "ind-090",
+    "description": "Prebuilt package tailored for Industry 090",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0090",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0090-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0090.zip" }
+  },
+  {
+    "id": 91,
+    "name": "IND-091 Industry 091",
+    "slug": "ind-091",
+    "description": "Prebuilt package tailored for Industry 091",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0091",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0091-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0091.zip" }
+  },
+  {
+    "id": 92,
+    "name": "IND-092 Industry 092",
+    "slug": "ind-092",
+    "description": "Prebuilt package tailored for Industry 092",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0092",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0092-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0092.zip" }
+  },
+  {
+    "id": 93,
+    "name": "IND-093 Industry 093",
+    "slug": "ind-093",
+    "description": "Prebuilt package tailored for Industry 093",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0093",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0093-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0093.zip" }
+  },
+  {
+    "id": 94,
+    "name": "IND-094 Industry 094",
+    "slug": "ind-094",
+    "description": "Prebuilt package tailored for Industry 094",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0094",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0094-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0094.zip" }
+  },
+  {
+    "id": 95,
+    "name": "IND-095 Industry 095",
+    "slug": "ind-095",
+    "description": "Prebuilt package tailored for Industry 095",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0095",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0095-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0095.zip" }
+  },
+  {
+    "id": 96,
+    "name": "IND-096 Industry 096",
+    "slug": "ind-096",
+    "description": "Prebuilt package tailored for Industry 096",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0096",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0096-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0096.zip" }
+  },
+  {
+    "id": 97,
+    "name": "IND-097 Industry 097",
+    "slug": "ind-097",
+    "description": "Prebuilt package tailored for Industry 097",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0097",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0097-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0097.zip" }
+  },
+  {
+    "id": 98,
+    "name": "IND-098 Industry 098",
+    "slug": "ind-098",
+    "description": "Prebuilt package tailored for Industry 098",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0098",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0098-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0098.zip" }
+  },
+  {
+    "id": 99,
+    "name": "IND-099 Industry 099",
+    "slug": "ind-099",
+    "description": "Prebuilt package tailored for Industry 099",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0099",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0099-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0099.zip" }
+  },
+  {
+    "id": 100,
+    "name": "IND-100 Industry 100",
+    "slug": "ind-100",
+    "description": "Prebuilt package tailored for Industry 100",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0100",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0100-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0100.zip" }
+  },
+  {
+    "id": 101,
+    "name": "IND-101 Industry 101",
+    "slug": "ind-101",
+    "description": "Prebuilt package tailored for Industry 101",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0101",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0101-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0101.zip" }
+  },
+  {
+    "id": 102,
+    "name": "IND-102 Industry 102",
+    "slug": "ind-102",
+    "description": "Prebuilt package tailored for Industry 102",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0102",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0102-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0102.zip" }
+  },
+  {
+    "id": 103,
+    "name": "IND-103 Industry 103",
+    "slug": "ind-103",
+    "description": "Prebuilt package tailored for Industry 103",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0103",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0103-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0103.zip" }
+  },
+  {
+    "id": 104,
+    "name": "IND-104 Industry 104",
+    "slug": "ind-104",
+    "description": "Prebuilt package tailored for Industry 104",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0104",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0104-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0104.zip" }
+  },
+  {
+    "id": 105,
+    "name": "IND-105 Industry 105",
+    "slug": "ind-105",
+    "description": "Prebuilt package tailored for Industry 105",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0105",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0105-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0105.zip" }
+  },
+  {
+    "id": 106,
+    "name": "IND-106 Industry 106",
+    "slug": "ind-106",
+    "description": "Prebuilt package tailored for Industry 106",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0106",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0106-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0106.zip" }
+  },
+  {
+    "id": 107,
+    "name": "IND-107 Industry 107",
+    "slug": "ind-107",
+    "description": "Prebuilt package tailored for Industry 107",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0107",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0107-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0107.zip" }
+  },
+  {
+    "id": 108,
+    "name": "IND-108 Industry 108",
+    "slug": "ind-108",
+    "description": "Prebuilt package tailored for Industry 108",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0108",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0108-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0108.zip" }
+  },
+  {
+    "id": 109,
+    "name": "IND-109 Industry 109",
+    "slug": "ind-109",
+    "description": "Prebuilt package tailored for Industry 109",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0109",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0109-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0109.zip" }
+  },
+  {
+    "id": 110,
+    "name": "IND-110 Industry 110",
+    "slug": "ind-110",
+    "description": "Prebuilt package tailored for Industry 110",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0110",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0110-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0110.zip" }
+  },
+  {
+    "id": 111,
+    "name": "IND-111 Industry 111",
+    "slug": "ind-111",
+    "description": "Prebuilt package tailored for Industry 111",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0111",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0111-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0111.zip" }
+  },
+  {
+    "id": 112,
+    "name": "IND-112 Industry 112",
+    "slug": "ind-112",
+    "description": "Prebuilt package tailored for Industry 112",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0112",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0112-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0112.zip" }
+  },
+  {
+    "id": 113,
+    "name": "IND-113 Industry 113",
+    "slug": "ind-113",
+    "description": "Prebuilt package tailored for Industry 113",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0113",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0113-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0113.zip" }
+  },
+  {
+    "id": 114,
+    "name": "IND-114 Industry 114",
+    "slug": "ind-114",
+    "description": "Prebuilt package tailored for Industry 114",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0114",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0114-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0114.zip" }
+  },
+  {
+    "id": 115,
+    "name": "IND-115 Industry 115",
+    "slug": "ind-115",
+    "description": "Prebuilt package tailored for Industry 115",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0115",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0115-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0115.zip" }
+  },
+  {
+    "id": 116,
+    "name": "IND-116 Industry 116",
+    "slug": "ind-116",
+    "description": "Prebuilt package tailored for Industry 116",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0116",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0116-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0116.zip" }
+  },
+  {
+    "id": 117,
+    "name": "IND-117 Industry 117",
+    "slug": "ind-117",
+    "description": "Prebuilt package tailored for Industry 117",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0117",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0117-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0117.zip" }
+  },
+  {
+    "id": 118,
+    "name": "IND-118 Industry 118",
+    "slug": "ind-118",
+    "description": "Prebuilt package tailored for Industry 118",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0118",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0118-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0118.zip" }
+  },
+  {
+    "id": 119,
+    "name": "IND-119 Industry 119",
+    "slug": "ind-119",
+    "description": "Prebuilt package tailored for Industry 119",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0119",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0119-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0119.zip" }
+  },
+  {
+    "id": 120,
+    "name": "IND-120 Industry 120",
+    "slug": "ind-120",
+    "description": "Prebuilt package tailored for Industry 120",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0120",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0120-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0120.zip" }
+  },
+  {
+    "id": 121,
+    "name": "IND-121 Industry 121",
+    "slug": "ind-121",
+    "description": "Prebuilt package tailored for Industry 121",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0121",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0121-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0121.zip" }
+  },
+  {
+    "id": 122,
+    "name": "IND-122 Industry 122",
+    "slug": "ind-122",
+    "description": "Prebuilt package tailored for Industry 122",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0122",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0122-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0122.zip" }
+  },
+  {
+    "id": 123,
+    "name": "IND-123 Industry 123",
+    "slug": "ind-123",
+    "description": "Prebuilt package tailored for Industry 123",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0123",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0123-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0123.zip" }
+  },
+  {
+    "id": 124,
+    "name": "IND-124 Industry 124",
+    "slug": "ind-124",
+    "description": "Prebuilt package tailored for Industry 124",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0124",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0124-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0124.zip" }
+  },
+  {
+    "id": 125,
+    "name": "IND-125 Industry 125",
+    "slug": "ind-125",
+    "description": "Prebuilt package tailored for Industry 125",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0125",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0125-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0125.zip" }
+  },
+  {
+    "id": 126,
+    "name": "IND-126 Industry 126",
+    "slug": "ind-126",
+    "description": "Prebuilt package tailored for Industry 126",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0126",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0126-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0126.zip" }
+  },
+  {
+    "id": 127,
+    "name": "IND-127 Industry 127",
+    "slug": "ind-127",
+    "description": "Prebuilt package tailored for Industry 127",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0127",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0127-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0127.zip" }
+  },
+  {
+    "id": 128,
+    "name": "IND-128 Industry 128",
+    "slug": "ind-128",
+    "description": "Prebuilt package tailored for Industry 128",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0128",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0128-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0128.zip" }
+  },
+  {
+    "id": 129,
+    "name": "IND-129 Industry 129",
+    "slug": "ind-129",
+    "description": "Prebuilt package tailored for Industry 129",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0129",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0129-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0129.zip" }
+  },
+  {
+    "id": 130,
+    "name": "IND-130 Industry 130",
+    "slug": "ind-130",
+    "description": "Prebuilt package tailored for Industry 130",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0130",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0130-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0130.zip" }
+  },
+  {
+    "id": 131,
+    "name": "IND-131 Industry 131",
+    "slug": "ind-131",
+    "description": "Prebuilt package tailored for Industry 131",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0131",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0131-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0131.zip" }
+  },
+  {
+    "id": 132,
+    "name": "IND-132 Industry 132",
+    "slug": "ind-132",
+    "description": "Prebuilt package tailored for Industry 132",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0132",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0132-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0132.zip" }
+  },
+  {
+    "id": 133,
+    "name": "IND-133 Industry 133",
+    "slug": "ind-133",
+    "description": "Prebuilt package tailored for Industry 133",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0133",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0133-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0133.zip" }
+  },
+  {
+    "id": 134,
+    "name": "IND-134 Industry 134",
+    "slug": "ind-134",
+    "description": "Prebuilt package tailored for Industry 134",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0134",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0134-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0134.zip" }
+  },
+  {
+    "id": 135,
+    "name": "IND-135 Industry 135",
+    "slug": "ind-135",
+    "description": "Prebuilt package tailored for Industry 135",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0135",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0135-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0135.zip" }
+  },
+  {
+    "id": 136,
+    "name": "IND-136 Industry 136",
+    "slug": "ind-136",
+    "description": "Prebuilt package tailored for Industry 136",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0136",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0136-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0136.zip" }
+  },
+  {
+    "id": 137,
+    "name": "IND-137 Industry 137",
+    "slug": "ind-137",
+    "description": "Prebuilt package tailored for Industry 137",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0137",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0137-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0137.zip" }
+  },
+  {
+    "id": 138,
+    "name": "IND-138 Industry 138",
+    "slug": "ind-138",
+    "description": "Prebuilt package tailored for Industry 138",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0138",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0138-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0138.zip" }
+  },
+  {
+    "id": 139,
+    "name": "IND-139 Industry 139",
+    "slug": "ind-139",
+    "description": "Prebuilt package tailored for Industry 139",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0139",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0139-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0139.zip" }
+  },
+  {
+    "id": 140,
+    "name": "IND-140 Industry 140",
+    "slug": "ind-140",
+    "description": "Prebuilt package tailored for Industry 140",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0140",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0140-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0140.zip" }
+  },
+  {
+    "id": 141,
+    "name": "IND-141 Industry 141",
+    "slug": "ind-141",
+    "description": "Prebuilt package tailored for Industry 141",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0141",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0141-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0141.zip" }
+  },
+  {
+    "id": 142,
+    "name": "IND-142 Industry 142",
+    "slug": "ind-142",
+    "description": "Prebuilt package tailored for Industry 142",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0142",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0142-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0142.zip" }
+  },
+  {
+    "id": 143,
+    "name": "IND-143 Industry 143",
+    "slug": "ind-143",
+    "description": "Prebuilt package tailored for Industry 143",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0143",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0143-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0143.zip" }
+  },
+  {
+    "id": 144,
+    "name": "IND-144 Industry 144",
+    "slug": "ind-144",
+    "description": "Prebuilt package tailored for Industry 144",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0144",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0144-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0144.zip" }
+  },
+  {
+    "id": 145,
+    "name": "IND-145 Industry 145",
+    "slug": "ind-145",
+    "description": "Prebuilt package tailored for Industry 145",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0145",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0145-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0145.zip" }
+  },
+  {
+    "id": 146,
+    "name": "IND-146 Industry 146",
+    "slug": "ind-146",
+    "description": "Prebuilt package tailored for Industry 146",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0146",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0146-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0146.zip" }
+  },
+  {
+    "id": 147,
+    "name": "IND-147 Industry 147",
+    "slug": "ind-147",
+    "description": "Prebuilt package tailored for Industry 147",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0147",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0147-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0147.zip" }
+  },
+  {
+    "id": 148,
+    "name": "IND-148 Industry 148",
+    "slug": "ind-148",
+    "description": "Prebuilt package tailored for Industry 148",
+    "price_band": "L",
+    "price_usd": 49,
+    "currency": "USD",
+    "sku": "PWS-0148",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Basic",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html"],
+      "license_summary": "Standard commercial license — single-business use.",
+      "license_doc": "/assets/licenses/PWS-0148-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0148.zip" }
+  },
+  {
+    "id": 149,
+    "name": "IND-149 Industry 149",
+    "slug": "ind-149",
+    "description": "Prebuilt package tailored for Industry 149",
+    "price_band": "M",
+    "price_usd": 149,
+    "currency": "USD",
+    "sku": "PWS-0149",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Standard",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","audit_report.pdf"],
+      "license_summary": "Standard commercial license with extended compliance addendum.",
+      "license_doc": "/assets/licenses/PWS-0149-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0149.zip" }
+  },
+  {
+    "id": 150,
+    "name": "IND-150 Industry 150",
+    "slug": "ind-150",
+    "description": "Prebuilt package tailored for Industry 150",
+    "price_band": "H",
+    "price_usd": 499,
+    "currency": "USD",
+    "sku": "PWS-0150",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": true,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Pro",
+      "contents": ["compliance_checklist.pdf","terms_of_service.html","setup_guide.html","advanced_audit.pdf","custom_templates.zip"],
+      "license_summary": "Pro license: includes defined redistribution rights.",
+      "license_doc": "/assets/licenses/PWS-0150-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0150.zip" }
+  },
+  {
+    "id": 151,
+    "name": "IND-151 (Elite) Industry 151",
+    "slug": "ind-151-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0151",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0151-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0151.zip" },
+    "price_note": "Invite Only"
+  },
+  {
+    "id": 152,
+    "name": "IND-152 (Elite) Industry 152",
+    "slug": "ind-152-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0152",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0152-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0152.zip" },
+    "price_note": "Invite Only"
+  },
+  {
+    "id": 153,
+    "name": "IND-153 (Elite) Industry 153",
+    "slug": "ind-153-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0153",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0153-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0153.zip" },
+    "price_note": "Invite Only"
+  },
+  {
+    "id": 154,
+    "name": "IND-154 (Elite) Industry 154",
+    "slug": "ind-154-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0154",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0154-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0154.zip" },
+    "price_note": "Invite Only"
+  },
+  {
+    "id": 155,
+    "name": "IND-155 (Elite) Industry 155",
+    "slug": "ind-155-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0155",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0155-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0155.zip" },
+    "price_note": "Invite Only"
+  },
+  {
+    "id": 156,
+    "name": "IND-156 (Elite) Industry 156",
+    "slug": "ind-156-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0156",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0156-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0156.zip" },
+    "price_note": "Invite Only"
+  },
+  {
+    "id": 157,
+    "name": "IND-157 (Elite) Industry 157",
+    "slug": "ind-157-elite",
+    "description": "Elite offering — Invite Only",
+    "price_band": "Elite",
+    "price_usd": null,
+    "currency": "USD",
+    "sku": "PWS-0157",
+    "media": { "accepted": ["legal_upload","youtube","iframe"] },
+    "presold": false,
+    "legal_verified": true,
+    "package": {
+      "name": "Sovereign Elite",
+      "contents": ["custom_onboarding.pdf","elite_terms.html"],
+      "license_summary": "Elite offering — invite only. Contact sales for onboarding.",
+      "license_doc": "/assets/licenses/PWS-0157-license.html"
+    },
+    "deliverable": { "type": "archive", "path": "/assets/deliverables/PWS-0157.zip" },
+    "price_note": "Invite Only"
+  }
+    ]
