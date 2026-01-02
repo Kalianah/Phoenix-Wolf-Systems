@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Phoenix Wolf Systems — Sovereign OS (Option A)</title>
+  <meta name="description" content="Sovereign OS — Prebuilt legal packages for 157 industries. Admin: Keli. One canonical table powers store & delivery." />
+  <style>
+    :root{
+      --midnight:#07001a;
+      --midnight-2:#12002f;
+      --neon-lav:#d6aaff;
+      --frost-sky:#78e6ff;
+      --accent-glow: 0 8px 40px rgba(122,200,255,0.08);
+      --card: linear-gradient(135deg, rgba(30,10,60,0.96), rgba(8,4,18,0.85));
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      color-scheme: dark;
+    }
+    html,body { height:100%; margin:0; background:
+      radial-gradient(600px 300px at 10% 10%, rgba(123,230,255,0.03), transparent 6%),
+      radial-gradient(500px 200px at 90% 80%, rgba(202,163,255,0.03), transparent 6%),
+      linear-gradient(180deg, var(--midnight), var(--midnight-2));
+      color: #fff; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+    header { display:flex; align-items:center; justify-content:space-between; padding:18px 22px; border-bottom:1px solid rgba(255,255,255,0.03) }
+    .brand { display:flex; gap:12px; align-items:center }
+    h1 { margin:0; font-size:1.18rem; color:var(--neon-lav); letter-spacing:0.4px; }
+    .sub { color: rgba(255,255,255,0.78); font-size:0.94rem }
+    main { max-width:1100px; margin:22px auto; padding:18px; display:grid; grid-template-columns: 1fr 420px; gap:18px; align-items:start; }
+    .hero { grid-column: 1 / -1; display:flex; gap:20px; align-items:center; background:var(--card); padding:18px; border-radius:var(--radius); box-shadow: var(--accent-glow); }
+    .hero .left { flex:1 }
+    .hero h2 { margin:0; color:var(--neon-lav) }
+    .hero p { margin:8px 0 0 0; color:rgba(255,255,255,0.85) }
+    .catalog { background:var(--card); padding:14px; border-radius:12px; box-shadow:0 10px 40px rgba(0,0,0,0.45) }
+    .controls { display:flex; gap:8px; margin-bottom:10px }
+    input[type=search], select { flex:1; padding:10px; border-radius:10px; background: rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.03); color:inherit }
+    .list { max-height:560px; overflow:auto; padding:6px; border-radius:10px; margin-top:8px; border:1px dashed rgba(255,255,255,0.03) }
+    .item { display:flex; justify-content:space-between; gap:12px; padding:10px; margin:8px 0; border-radius:10px; background: linear-gradient(90deg, rgba(255,255,255,0.01), transparent); cursor:pointer }
+    .item:hover { transform: translateY(-3px); box-shadow: 0 12px 36px rgba(123,230,255,0.03); outline:1px solid rgba(202,163,255,0.05) }
+    .badge { padding:6px 10px; border-radius:999px; font-weight:700; background: linear-gradient(90deg, var(--neon-lav), var(--frost-sky)); color:#07102b }
+    .panel { background:var(--card); padding:16px; border-radius:12px; box-shadow:var(--accent-glow) }
+    .selected { padding:12px; border-radius:10px; background: linear-gradient(180deg, rgba(255,255,255,0.01), transparent) }
+    .cta { display:inline-block; padding:10px 14px; border-radius:12px; background:linear-gradient(90deg,var(--neon-lav),var(--frost-sky)); color:#07102b; font-weight:800; border:none; box-shadow:0 8px 30px rgba(123,230,255,0.06); cursor:pointer }
+    .small { font-size:0.88rem; color:rgba(255,255,255,0.85) }
+    footer { text-align:center; padding:18px 12px; color:rgba(255,255,255,0.6) }
+    @media (max-width:980px) { main { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div>
+        <h1>Phoenix Wolf Systems</h1>
+        <div class="sub">Astral Prisms — Sovereign OS · Admin: Keli</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:center">
+      <a class="cta" href="https://drive.proton.me/urls/EN78NXE07C#6pDSjTuFFuJh" target="_blank" rel="noopener noreferrer">Pro • Logistics</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="left">
+        <h2>One Table. All Services. Prebuilt & Legally Verified.</h2>
+        <p>Each package is prebuilt and documented. Buy confidently — the single canonical table (assets/industries.json) powers the storefront, checkout, and delivery. Admin audit handle: Keli.</p>
+      </div>
+      <div style="width:220px;text-align:center">
+        <div style="width:220px;height:120px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,var(--neon-lav),var(--frost-sky));color:#07102b;font-weight:800">Phoenix Wolf</div>
+      </div>
+    </div>
+
+    <section class="catalog">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:700;color:var(--neon-lav)">Catalog — Prebuilt Packages</div>
+        <div class="small">Single canonical table: <code class="small">assets/industries.json</code></div>
+      </div>
+
+      <div class="controls" style="margin-top:10px">
+        <input id="search" type="search" placeholder="Search industries, sku, or keywords" />
+        <select id="filter">
+          <option value="all">All</option>
+          <option value="L">$49 (L)</option>
+          <option value="M">$149 (M)</option>
+          <option value="H">$499 (H)</option>
+          <option value="Elite">Elite — Invite Only</option>
+        </select>
+      </div>
+
+      <div id="list" class="list" aria-live="polite">
+        <div class="small">Loading catalog…</div>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:700;color:var(--neon-lav)">Selected</div>
+        <div class="small">Audit: Keli</div>
+      </div>
+
+      <div id="selected" class="selected" style="margin-top:10px">
+        <div class="small">Choose a package from the catalog to see details, license summary and Buy options (presold packages auto-deliver).</div>
+      </div>
+
+      <div style="margin-top:12px;display:flex;gap:8px;align-items:center">
+        <button id="buy" class="cta" disabled>Buy</button>
+        <a class="small" href="/admin/setup.html" target="_blank" rel="noopener noreferrer">Admin Setup (Allow)</a>
+      </div>
+
+      <div style="margin-top:12px" class="small">Built by Astral Prisms for Phoenix Wolf Systems. Copyright © Astral Prisms.</div>
+    </aside>
+  </main>
+
+  <footer>
+    Single canonical table powers the OS. For admin secret setup and secure delivery, use the Admin Setup Allow form and Cloudflare Worker endpoints.
+  </footer>
+
+  <script>
+    // Simple client to fetch canonical table and render list
+    const listEl = document.getElementById('list');
+    const selectedEl = document.getElementById('selected');
+    const buyBtn = document.getElementById('buy');
+    let industries = [];
+    let selected = null;
+
+    function esc(s){ return s ? s.replace(/[&<>"']/g, (m)=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])) : ''; }
+
+    function rowHtml(it){
+      return `
+        <div class="item" data-id="${it.id}">
+          <div>
+            <div style="font-weight:700">${esc(it.name)}</div>
+            <div class="small">${esc(it.description)}</div>
+          </div>
+          <div style="text-align:right">
+            <div class="badge">${it.price_band}${it.price_band!=='Elite' && it.price_usd ? ' • ' + it.currency + ' ' + it.price_usd : it.price_band==='Elite' ? ' • Invite' : ''}</div>
+            <div class="small" style="margin-top:6px">${esc(it.sku)}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderList(items){
+      if(!items.length){ listEl.innerHTML = '<div class="small">No items found.</div>'; return; }
+      listEl.innerHTML = items.map(rowHtml).join('');
+      listEl.querySelectorAll('.item').forEach(el=>{
+        el.addEventListener('click', ()=> {
+          const id = Number(el.getAttribute('data-id'));
+          const it = industries.find(i=>i.id===id);
+          setSelected(it);
+        });
+      });
+    }
+
+    function setSelected(it){
+      selected = it;
+      selectedEl.innerHTML = `
+        <div style="font-weight:700">${esc(it.name)}</div>
+        <div class="small" style="margin-top:6px">${esc(it.description)}</div>
+        <div style="margin-top:10px"><strong>Package:</strong> ${esc(it.package.name || '')}</div>
+        <div style="margin-top:8px" class="small"><strong>Contents:</strong> ${esc((it.package.contents||[]).join(', '))}</div>
+        <div style="margin-top:8px" class="small"><strong>License:</strong> ${esc(it.package.license_summary || '')}</div>
+      `;
+      buyBtn.disabled = (it.price_band === 'Elite');
+    }
+
+    document.getElementById('search').addEventListener('input', ()=>applyFilters());
+    document.getElementById('filter').addEventListener('change', ()=>applyFilters());
+
+    function applyFilters(){
+      const q = document.getElementById('search').value.trim().toLowerCase();
+      const band = document.getElementById('filter').value;
+      const out = industries.filter(i=>{
+        if(band !== 'all' && i.price_band !== band) return false;
+        if(!q) return true;
+        return (i.name + ' ' + i.description + ' ' + i.sku).toLowerCase().includes(q);
+      });
+      renderList(out);
+    }
+
+    // Load industries.json
+    (async ()=>{
+      try{
+        const res = await fetch('/assets/industries.json', {cache:'no-store'});
+        industries = await res.json();
+        renderList(industries);
+        if(industries && industries.length) setSelected(industries[0]);
+      }catch(err){
+        listEl.innerHTML = '<div class="small">Failed to load catalog. Ensure assets/industries.json is present.</div>';
+        console.error(err);
+      }
+    })();
+
+    // Buy button: create checkout (calls Worker endpoint)
+    buyBtn.addEventListener('click', async ()=>{
+      if(!selected) return alert('Select a package first');
+      buyBtn.disabled = true;
+      buyBtn.textContent = 'Processing...';
+      const email = prompt('Enter your email to receive delivery link (demo):') || '';
+      const payload = { sku: selected.sku, industry_id: selected.id, user:{email}, manifest: {}, presold: !!selected.presold };
+      try{
+        const r = await fetch('/api/create-checkout', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(payload)});
+        const j = await r.json();
+        if(!r.ok) { alert('Checkout failed: ' + (j.error || r.status)); }
+        else {
+          if(j.deliver && j.deliver.proton_link) {
+            alert('Delivered: ' + j.deliver.proton_link);
+          } else {
+            alert('Checkout created. Session: ' + j.session_id);
+          }
+        }
+      }catch(e){
+        alert('Checkout error: ' + e.message);
+      } finally {
+        buyBtn.disabled = false;
+        buyBtn.textContent = 'Buy';
+      }
+    });
+  </script>
+</body>
+</html>
