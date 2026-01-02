@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Phoenix Wolf — Secure Setup</title>
+  <style>
+    body{font-family:Inter,system-ui,Arial;background:#060018;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+    .card{background:linear-gradient(180deg,#0d0330,#050018);padding:22px;border-radius:12px;box-shadow:0 12px 60px rgba(123,230,255,0.04);width:680px;max-width:94vw}
+    h2{color:#d7aeff;margin:0 0 8px 0}
+    label{display:block;margin-top:12px;font-size:0.9rem;color:#dfe8ff}
+    input[type=text], input[type=password], textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:rgba(255,255,255,0.02);color:#fff}
+    .row{display:flex;gap:8px;margin-top:12px}
+    .btn{background:linear-gradient(90deg,#d7aeff,#77e6ff);border:none;padding:10px 14px;border-radius:10px;font-weight:700;color:#07102b;cursor:pointer}
+    .small{font-size:0.82rem;color:#bfcff5;margin-top:8px}
+    .status{margin-top:12px;padding:10px;border-radius:8px;background:rgba(255,255,255,0.02);font-size:0.9rem}
+    pre{white-space:pre-wrap;word-break:break-word;background:rgba(255,255,255,0.01);padding:10px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="card" role="dialog" aria-modal="true" aria-labelledby="title">
+    <h2 id="title">Secure Setup — Allow Secrets</h2>
+    <div class="small">This form posts a secrets JSON to your Worker endpoint (/api/store-secrets). Use the one-time SETUP_TOKEN in the header <code>x-setup-token</code>. After success rotate/delete the token.</div>
+
+    <label>Setup Token (one-time)</label>
+    <input id="setupToken" type="password" placeholder="One-time SETUP_TOKEN">
+
+    <label>Secrets JSON</label>
+    <textarea id="secrets" rows="10" placeholder='{"STRIPE_SECRET_KEY":"sk_live_...","PROTON_API_KEY":"...","OAUTH_LINKEDIN_CLIENT_ID":"...","OAUTH_LINKEDIN_CLIENT_SECRET":"...","OAUTH_REDIRECT_URI":"https://yourdomain.com/api/oauth/callback"}'></textarea>
+
+    <div class="row" style="justify-content:space-between;align-items:center">
+      <div class="small">After a successful store: rotate/delete the SETUP_TOKEN. Do not share secrets.</div>
+      <div><button id="allowBtn" class="btn">Allow</button></div>
+    </div>
+
+    <div id="status" class="status" aria-live="polite" style="display:none"></div>
+  </div>
+
+  <script>
+    const allowBtn = document.getElementById('allowBtn');
+    const status = document.getElementById('status');
+    allowBtn.addEventListener('click', async ()=>{
+      status.style.display='block';
+      status.textContent='Sending...';
+      const token = document.getElementById('setupToken').value.trim();
+      const payloadText = document.getElementById('secrets').value.trim();
+      if(!token || !payloadText){ status.textContent='Please enter the setup token and valid JSON.'; return; }
+      let payload;
+      try{ payload = JSON.parse(payloadText); } catch(e){ status.textContent='Invalid JSON: '+e.message; return; }
+
+      try{
+        const res = await fetch('/api/store-secrets', {
+          method: 'POST',
+          headers: {
+            'content-type':'application/json',
+            'x-setup-token': token
+          },
+          body: JSON.stringify({secrets: payload})
+        });
+        const body = await res.json().catch(()=>({}));
+        if(res.ok){
+          status.innerHTML = 'Success: secrets stored. <strong>Rotate/delete SETUP_TOKEN now.</strong>';
+        } else {
+          status.textContent = 'Failed: ' + (body.error || res.status);
+        }
+      }catch(err){
+        status.textContent = 'Network error: ' + err.message;
+      }
+    });
+  </script>
+</body>
+</html>
