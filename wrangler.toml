@@ -7,6 +7,7 @@ zone_id = "${CF_ZONE_ID}"
 
 [vars]
 ADMIN_HANDLE = "Keli"
+SETUP_TOKEN = "${CF_SETUP_TOKEN}"
 
 [[kv_namespaces]]
 binding = "SECRETS_KV"
